@@ -12,7 +12,7 @@ No momento o circuito está em desenvolvimento, acredito que até dia **09/AGO/2
 * Driver ponte H
 * Placa Pill Blue (arm)
 * Conectores Molex para motores, sensores e alimentação
-* E um bluetooth (**PARA AJUGAR NO DEBUG**)
+* E um bluetooth (**PARA AJUDAR NO DEBUG**)
  
 O bluetooth está aí para ajudar no desenvolvimento do programa e não vais estar conectado na placa no momento da competição, o conector dele pode ser usado como botão para iniciar o robô (um jumper que desencaixa ).
 
