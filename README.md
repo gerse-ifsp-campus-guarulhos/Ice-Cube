@@ -6,7 +6,7 @@ O Ice Cube, é um robô que está sendo criado dentro do GERSE , afim de partici
 
 ## **Circuito**
  
-No momento o circuito está em desenvolvimento, acredito que até dia 09/ago/2019 o mesmo estará pronto. o Circuito foi desenvolvido em Kicad e está em processo de roteamento das trilhas, ela está sendo projetada para fabricação manual (transferência térmica) para mais detalhes vejam o [Esquema elétrico](/home/pibs/workspace/Ice-Cube/circuito/Documentacao/esquematico.pdf), a placa contém:
+No momento o circuito está em desenvolvimento, acredito que até dia 09/ago/2019 o mesmo estará pronto. o Circuito foi desenvolvido em Kicad e está em processo de roteamento das trilhas, ela está sendo projetada para fabricação manual (transferência térmica) para mais detalhes vejam o [Esquema elétrico](https://github.com/gerse-ifsp-campus-guarulhos/Ice-Cube/blob/master/circuito/Documentacao/esquematico.pdf), a placa contém:
  
 * Fonte DCDC
 * Driver ponte H
