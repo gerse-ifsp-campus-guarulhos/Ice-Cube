@@ -15,17 +15,6 @@ Comment3 "Wesley Calsonari"
 Comment4 ""
 $EndDescr
 $Comp
-L MyLib-ALL:STM32F103C8T6 U2
-U 1 1 5D4212E5
-P 1850 4250
-F 0 "U2" H 2350 4365 50  0000 C CNN
-F 1 "STM32F103C8T6" H 2350 4274 50  0000 C CNN
-F 2 "MyFootprint:stm32f103c8t6-module-china" H 1850 4250 50  0001 C CNN
-F 3 "" H 1850 4250 50  0001 C CNN
-	1    1850 4250
-	1    0    0    -1  
-$EndComp
-$Comp
 L MyLib-ALL:DC-DC U1
 U 1 1 5D42142E
 P 1300 2850
@@ -716,15 +705,10 @@ F 3 "" H 3050 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 6450 3050 4550
-Wire Wire Line
 	3050 4550 3000 4550
 NoConn ~ 3000 5150
 NoConn ~ 3000 5550
 NoConn ~ 3000 5650
-NoConn ~ 3000 6150
-NoConn ~ 3000 6250
-NoConn ~ 3000 6350
 $Comp
 L Connector:Conn_01x04_Female J2
 U 1 1 5D491B30
@@ -818,26 +802,26 @@ F 3 "" H 9650 1100 50  0001 C CNN
 	1    9650 1100
 	1    0    0    -1  
 $EndComp
-Text HLabel 3100 4950 2    50   Output ~ 0
-B7
-Text HLabel 3100 5050 2    50   Output ~ 0
-B6
-Text HLabel 3100 5250 2    50   Output ~ 0
-B4
-Text HLabel 3100 5350 2    50   Output ~ 0
-B3
-Text HLabel 3100 5450 2    50   Output ~ 0
+Text HLabel 3150 6250 2    50   Output ~ 0
+B13
+Text HLabel 3150 6350 2    50   Output ~ 0
+B12
+Text HLabel 3150 5950 2    50   Output ~ 0
+A8
+Text HLabel 3150 6050 2    50   Output ~ 0
 A15
+Text HLabel 3150 6150 2    50   Output ~ 0
+B14
 Wire Wire Line
-	3100 5250 3000 5250
+	3150 5950 3000 5950
 Wire Wire Line
-	3000 5350 3100 5350
+	3000 6050 3150 6050
 Wire Wire Line
-	3100 5450 3000 5450
+	3150 6150 3000 6150
 Wire Wire Line
-	3000 5050 3100 5050
+	3000 6350 3150 6350
 Wire Wire Line
-	3100 4950 3000 4950
+	3150 6250 3000 6250
 $Comp
 L Connector:Conn_01x02_Female J9
 U 1 1 5D51858D
@@ -868,26 +852,6 @@ Wire Wire Line
 	9100 2750 9100 2600
 Wire Wire Line
 	9700 2750 9700 2600
-Text HLabel 9400 2750 3    50   Input ~ 0
-B4
-Text HLabel 9300 2750 3    50   Input ~ 0
-B3
-Text HLabel 9200 2750 3    50   Input ~ 0
-A15
-Wire Wire Line
-	9400 2750 9400 2600
-Wire Wire Line
-	9300 2600 9300 2750
-Wire Wire Line
-	9200 2750 9200 2600
-Text HLabel 9600 2750 3    50   Input ~ 0
-B7
-Text HLabel 9500 2750 3    50   Input ~ 0
-B6
-Wire Wire Line
-	9600 2750 9600 2600
-Wire Wire Line
-	9500 2600 9500 2750
 NoConn ~ 3000 4850
 NoConn ~ 3000 4750
 Wire Notes Line
@@ -2366,4 +2330,37 @@ F 3 "~" H 6150 950 50  0001 C CNN
 	1    6150 950 
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	3050 6450 3050 4550
+$Comp
+L MyLib-ALL:STM32F103C8T6 U2
+U 1 1 5D4212E5
+P 1850 4250
+F 0 "U2" H 2350 4365 50  0000 C CNN
+F 1 "STM32F103C8T6" H 2350 4274 50  0000 C CNN
+F 2 "MyFootprint:stm32f103c8t6-module-china" H 1850 4250 50  0001 C CNN
+F 3 "" H 1850 4250 50  0001 C CNN
+	1    1850 4250
+	1    0    0    -1  
+$EndComp
+Text HLabel 9300 2750 3    50   Input ~ 0
+B13
+Text HLabel 9200 2750 3    50   Input ~ 0
+B12
+Text HLabel 9600 2750 3    50   Input ~ 0
+A8
+Text HLabel 9500 2750 3    50   Input ~ 0
+A15
+Text HLabel 9400 2750 3    50   Input ~ 0
+B14
+Wire Wire Line
+	9600 2750 9600 2600
+Wire Wire Line
+	9200 2750 9200 2600
+Wire Wire Line
+	9300 2600 9300 2750
+Wire Wire Line
+	9400 2750 9400 2600
+Wire Wire Line
+	9500 2600 9500 2750
 $EndSCHEMATC
