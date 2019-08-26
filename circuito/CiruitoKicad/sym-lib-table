@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name iceCubeNomeFeio-rescue)(type Legacy)(uri ${KIPRJMOD}/iceCubeNomeFeio-rescue.lib)(options "")(descr ""))
+)

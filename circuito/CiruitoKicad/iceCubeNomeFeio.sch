@@ -15,7 +15,7 @@ Comment3 "Wesley Calsonari"
 Comment4 ""
 $EndDescr
 $Comp
-L MyLib-ALL:DC-DC U1
+L iceCubeNomeFeio-rescue:DC-DC-MyLib-ALL U1
 U 1 1 5D42142E
 P 1300 2850
 F 0 "U1" H 1600 3447 60  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "~" H 4250 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4V2:+5V #PWR07
+L iceCubeNomeFeio-rescue:+5V-4V2 #PWR07
 U 1 1 5D422A39
 P 4150 1300
 F 0 "#PWR07" H 4150 1150 50  0001 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 4150 1300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4V2:Earth #PWR09
+L iceCubeNomeFeio-rescue:Earth-4V2 #PWR09
 U 1 1 5D422B44
 P 4250 1300
 F 0 "#PWR09" H 4250 1050 50  0001 C CNN
@@ -78,7 +78,7 @@ F 3 "~" H 4700 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4V2:+5V #PWR010
+L iceCubeNomeFeio-rescue:+5V-4V2 #PWR010
 U 1 1 5D422E52
 P 4600 1300
 F 0 "#PWR010" H 4600 1150 50  0001 C CNN
@@ -89,7 +89,7 @@ F 3 "" H 4600 1300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4V2:Earth #PWR011
+L iceCubeNomeFeio-rescue:Earth-4V2 #PWR011
 U 1 1 5D422E58
 P 4700 1300
 F 0 "#PWR011" H 4700 1050 50  0001 C CNN
@@ -119,7 +119,7 @@ F 3 "~" H 5150 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4V2:+5V #PWR013
+L iceCubeNomeFeio-rescue:+5V-4V2 #PWR013
 U 1 1 5D422FEF
 P 5050 1300
 F 0 "#PWR013" H 5050 1150 50  0001 C CNN
@@ -130,7 +130,7 @@ F 3 "" H 5050 1300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4V2:Earth #PWR014
+L iceCubeNomeFeio-rescue:Earth-4V2 #PWR014
 U 1 1 5D422FF5
 P 5150 1300
 F 0 "#PWR014" H 5150 1050 50  0001 C CNN
@@ -160,7 +160,7 @@ F 3 "~" H 5600 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4V2:+5V #PWR015
+L iceCubeNomeFeio-rescue:+5V-4V2 #PWR015
 U 1 1 5D423006
 P 5500 1300
 F 0 "#PWR015" H 5500 1150 50  0001 C CNN
@@ -171,7 +171,7 @@ F 3 "" H 5500 1300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4V2:Earth #PWR017
+L iceCubeNomeFeio-rescue:Earth-4V2 #PWR017
 U 1 1 5D42300C
 P 5600 1300
 F 0 "#PWR017" H 5600 1050 50  0001 C CNN
@@ -190,7 +190,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 1300 5700 1150
 $Comp
-L 4V2:+5V #PWR020
+L iceCubeNomeFeio-rescue:+5V-4V2 #PWR020
 U 1 1 5D424281
 P 6250 1300
 F 0 "#PWR020" H 6250 1150 50  0001 C CNN
@@ -201,7 +201,7 @@ F 3 "" H 6250 1300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4V2:Earth #PWR018
+L iceCubeNomeFeio-rescue:Earth-4V2 #PWR018
 U 1 1 5D424287
 P 6150 1300
 F 0 "#PWR018" H 6150 1050 50  0001 C CNN
@@ -220,7 +220,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 1300 6050 1150
 $Comp
-L 4V2:+5V #PWR022
+L iceCubeNomeFeio-rescue:+5V-4V2 #PWR022
 U 1 1 5D424F2E
 P 6800 1300
 F 0 "#PWR022" H 6800 1150 50  0001 C CNN
@@ -231,7 +231,7 @@ F 3 "" H 6800 1300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4V2:Earth #PWR021
+L iceCubeNomeFeio-rescue:Earth-4V2 #PWR021
 U 1 1 5D424F34
 P 6700 1300
 F 0 "#PWR021" H 6700 1050 50  0001 C CNN
@@ -272,7 +272,7 @@ F 3 "~" H 4200 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4V2:Earth #PWR08
+L iceCubeNomeFeio-rescue:Earth-4V2 #PWR08
 U 1 1 5D4256F1
 P 4200 3000
 F 0 "#PWR08" H 4200 2750 50  0001 C CNN
@@ -320,7 +320,7 @@ F 3 "~" H 4650 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4V2:Earth #PWR012
+L iceCubeNomeFeio-rescue:Earth-4V2 #PWR012
 U 1 1 5D42963D
 P 4650 3000
 F 0 "#PWR012" H 4650 2750 50  0001 C CNN
@@ -368,7 +368,7 @@ F 3 "~" H 5100 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4V2:Earth #PWR016
+L iceCubeNomeFeio-rescue:Earth-4V2 #PWR016
 U 1 1 5D42A644
 P 5100 3000
 F 0 "#PWR016" H 5100 2750 50  0001 C CNN
@@ -416,7 +416,7 @@ F 3 "~" H 5550 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4V2:Earth #PWR019
+L iceCubeNomeFeio-rescue:Earth-4V2 #PWR019
 U 1 1 5D42A661
 P 5550 3000
 F 0 "#PWR019" H 5550 2750 50  0001 C CNN
@@ -464,7 +464,7 @@ F 3 "~" H 6000 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4V2:Earth #PWR023
+L iceCubeNomeFeio-rescue:Earth-4V2 #PWR023
 U 1 1 5D42B44C
 P 6000 3000
 F 0 "#PWR023" H 6000 2750 50  0001 C CNN
@@ -512,7 +512,7 @@ F 3 "~" H 6450 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4V2:Earth #PWR024
+L iceCubeNomeFeio-rescue:Earth-4V2 #PWR024
 U 1 1 5D42B469
 P 6450 3000
 F 0 "#PWR024" H 6450 2750 50  0001 C CNN
@@ -550,7 +550,7 @@ OUT5
 Text HLabel 6450 2100 1    50   Input ~ 0
 OUT6
 $Comp
-L 4V2:Earth #PWR02
+L iceCubeNomeFeio-rescue:Earth-4V2 #PWR02
 U 1 1 5D434B34
 P 1000 2850
 F 0 "#PWR02" H 1000 2600 50  0001 C CNN
@@ -565,7 +565,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 2800 1100 2800
 $Comp
-L 4V2:Earth #PWR04
+L iceCubeNomeFeio-rescue:Earth-4V2 #PWR04
 U 1 1 5D435CCF
 P 2200 2850
 F 0 "#PWR04" H 2200 2600 50  0001 C CNN
@@ -580,7 +580,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 2700 2100 2700
 $Comp
-L 4V2:+5V #PWR03
+L iceCubeNomeFeio-rescue:+5V-4V2 #PWR03
 U 1 1 5D437462
 P 2200 2100
 F 0 "#PWR03" H 2200 1950 50  0001 C CNN
@@ -606,7 +606,7 @@ F 3 "~" H 850 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4V2:Earth #PWR01
+L iceCubeNomeFeio-rescue:Earth-4V2 #PWR01
 U 1 1 5D43E251
 P 950 1800
 F 0 "#PWR01" H 950 1550 50  0001 C CNN
@@ -627,7 +627,7 @@ VIM
 Wire Wire Line
 	1000 2500 1100 2500
 $Comp
-L 4V2:+5V #PWR029
+L iceCubeNomeFeio-rescue:+5V-4V2 #PWR029
 U 1 1 5D449A75
 P 3150 4150
 F 0 "#PWR029" H 3150 4000 50  0001 C CNN
@@ -674,7 +674,7 @@ NoConn ~ 1700 5650
 NoConn ~ 1700 5750
 NoConn ~ 1700 6050
 $Comp
-L 4V2:Earth #PWR025
+L iceCubeNomeFeio-rescue:Earth-4V2 #PWR025
 U 1 1 5D4738B2
 P 1600 6450
 F 0 "#PWR025" H 1600 6200 50  0001 C CNN
@@ -694,7 +694,7 @@ Connection ~ 1600 6350
 Wire Wire Line
 	1600 6350 1600 6250
 $Comp
-L 4V2:Earth #PWR028
+L iceCubeNomeFeio-rescue:Earth-4V2 #PWR028
 U 1 1 5D476C14
 P 3050 6450
 F 0 "#PWR028" H 3050 6200 50  0001 C CNN
@@ -721,7 +721,7 @@ F 3 "~" H 3200 1050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4V2:+5V #PWR06
+L iceCubeNomeFeio-rescue:+5V-4V2 #PWR06
 U 1 1 5D491E8B
 P 3400 1400
 F 0 "#PWR06" H 3400 1250 50  0001 C CNN
@@ -732,7 +732,7 @@ F 3 "" H 3400 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4V2:Earth #PWR05
+L iceCubeNomeFeio-rescue:Earth-4V2 #PWR05
 U 1 1 5D491F65
 P 3300 1400
 F 0 "#PWR05" H 3300 1150 50  0001 C CNN
@@ -755,7 +755,7 @@ A9
 Wire Wire Line
 	3150 5850 3000 5850
 $Comp
-L 4V2:Earth #PWR030
+L iceCubeNomeFeio-rescue:Earth-4V2 #PWR030
 U 1 1 5D4BA922
 P 8800 2900
 F 0 "#PWR030" H 8800 2650 50  0001 C CNN
@@ -766,7 +766,7 @@ F 3 "" H 8800 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MyLib-ALL:TB6612FNG U3
+L iceCubeNomeFeio-rescue:TB6612FNG-MyLib-ALL U3
 U 1 1 5D4DB153
 P 9800 1550
 F 0 "U3" H 10275 1715 50  0000 C CNN
@@ -792,7 +792,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 1400 9600 1450
 $Comp
-L 4V2:+5V #PWR027
+L iceCubeNomeFeio-rescue:+5V-4V2 #PWR027
 U 1 1 5D4F17D7
 P 9650 1100
 F 0 "#PWR027" H 9650 950 50  0001 C CNN
@@ -809,7 +809,7 @@ B12
 Text HLabel 3150 5950 2    50   Output ~ 0
 A8
 Text HLabel 3150 6050 2    50   Output ~ 0
-A15
+B15
 Text HLabel 3150 6150 2    50   Output ~ 0
 B14
 Wire Wire Line
@@ -2333,7 +2333,7 @@ $EndComp
 Wire Wire Line
 	3050 6450 3050 4550
 $Comp
-L MyLib-ALL:STM32F103C8T6 U2
+L iceCubeNomeFeio-rescue:STM32F103C8T6-MyLib-ALL U2
 U 1 1 5D4212E5
 P 1850 4250
 F 0 "U2" H 2350 4365 50  0000 C CNN
@@ -2350,7 +2350,7 @@ B12
 Text HLabel 9600 2750 3    50   Input ~ 0
 A8
 Text HLabel 9500 2750 3    50   Input ~ 0
-A15
+B15
 Text HLabel 9400 2750 3    50   Input ~ 0
 B14
 Wire Wire Line
