@@ -6,7 +6,7 @@ O Ice Cube, é um robô que está sendo criado dentro do GERSE , afim de partici
 
 ## **Circuito**
  
-O circuito, ele foi desenvolvido em Kicad e está projetado para fabricação manual (transferência térmica) embora o **[GERBER](circuito/PCB)** para fabricção manofaturada tambem está disponivel ([PDF](circuito/PCB/PCB.pdf))   para mais detalhes vejam o [Esquema elétrico](https://github.com/gerse-ifsp-campus-guarulhos/Ice-Cube/blob/master/circuito/Documentacao/esquematico.pdf), a placa contém:
+O circuito foi desenvolvido em Kicad e está projetado para fabricação manual (transferência térmica) embora o **[GERBER](circuito/PCB)** para fabricção manofaturada tambem está disponivel ([PDF](circuito/PCB/PCB.pdf))   para mais detalhes vejam o [Esquema elétrico](https://github.com/gerse-ifsp-campus-guarulhos/Ice-Cube/blob/master/circuito/Documentacao/esquematico.pdf), a placa contém:
  
 * Fonte DCDC
 * Driver ponte H
