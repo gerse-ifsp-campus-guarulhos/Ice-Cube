@@ -16,7 +16,7 @@ u16 sLeft(void);				// sharp
 u16 sRight(void);				// sharp
 u16 sFront(void);				// sharp
 u16 sBehind(void);				// sharp
-u16 sbBright(void);				// TCRT500
+u16 sbRight(void);				// TCRT500
 u16 sbLeft(void);				// TCRT500
 
 void cltPonteH(bool stop);			//

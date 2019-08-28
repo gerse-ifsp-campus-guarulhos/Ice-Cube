@@ -1196,10 +1196,10 @@ END GROUP
 
 .inits          0x000000000800022c       0x28
                 0x000000000800022c                __data_regions_array_start = .
-                0x000000000800022c        0x4 LONG 0x8001a98 LOADADDR (.data)
+                0x000000000800022c        0x4 LONG 0x8001ab8 LOADADDR (.data)
                 0x0000000008000230        0x4 LONG 0x20000000 ADDR (.data)
                 0x0000000008000234        0x4 LONG 0x20000030 (ADDR (.data) + SIZEOF (.data))
-                0x0000000008000238        0x4 LONG 0x8001a98 LOADADDR (.data_CCMRAM)
+                0x0000000008000238        0x4 LONG 0x8001ab8 LOADADDR (.data_CCMRAM)
                 0x000000000800023c        0x4 LONG 0x0 ADDR (.data_CCMRAM)
                 0x0000000008000240        0x4 LONG 0x0 (ADDR (.data_CCMRAM) + SIZEOF (.data_CCMRAM))
                 0x0000000008000244                __data_regions_array_end = .
@@ -1231,7 +1231,7 @@ END GROUP
 .flashtext
  *(.flashtext .flashtext.*)
 
-.text           0x0000000008000254     0x1844
+.text           0x0000000008000254     0x1864
  *(.text .text.*)
  .text.NVIC_Init
                 0x0000000008000254       0x5c ./system/src/stm32f1-stdperiph/misc.o
@@ -1514,9 +1514,9 @@ END GROUP
  .text._Z7sBehindv
                 0x000000000800150e        0x6 ./src/core/core.o
                 0x000000000800150e                sBehind()
- .text._Z8sbBrightv
+ .text._Z7sbRightv
                 0x0000000008001514        0x6 ./src/core/core.o
-                0x0000000008001514                sbBright()
+                0x0000000008001514                sbRight()
  .text._Z6sbLeftv
                 0x000000000800151a        0x6 ./src/core/core.o
                 0x000000000800151a                sbLeft()
@@ -1575,66 +1575,66 @@ END GROUP
                 0x0000000008001814       0x18 ./src/main.o
                 0x0000000008001814                setUp()
  .text._Z4loopv
-                0x000000000800182c       0xdc ./src/main.o
+                0x000000000800182c       0xfc ./src/main.o
                 0x000000000800182c                loop()
  .text.startup.main
-                0x0000000008001908       0x18 ./src/main.o
-                0x0000000008001908                main
- .text          0x0000000008001920       0x34 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
-                0x0000000008001920                __itoa
-                0x0000000008001950                itoa
- .text          0x0000000008001954       0x5c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
-                0x0000000008001954                strlen
- .text          0x00000000080019b0       0x84 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
-                0x00000000080019b0                __utoa
-                0x0000000008001a30                utoa
+                0x0000000008001928       0x18 ./src/main.o
+                0x0000000008001928                main
+ .text          0x0000000008001940       0x34 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
+                0x0000000008001940                __itoa
+                0x0000000008001970                itoa
+ .text          0x0000000008001974       0x5c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
+                0x0000000008001974                strlen
+ .text          0x00000000080019d0       0x84 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
+                0x00000000080019d0                __utoa
+                0x0000000008001a50                utoa
  *(.rodata .rodata.* .constdata .constdata.*)
  .rodata._Z4loopv.str1.1
-                0x0000000008001a34       0x30 ./src/main.o
+                0x0000000008001a54       0x30 ./src/main.o
  .rodata._Z5setUpv.str1.1
-                0x0000000008001a64        0xb ./src/main.o
- *fill*         0x0000000008001a6f        0x1 
+                0x0000000008001a84        0xb ./src/main.o
+ *fill*         0x0000000008001a8f        0x1 
  .rodata.str1.4
-                0x0000000008001a70       0x28 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
+                0x0000000008001a90       0x28 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
                                          0x25 (size before relaxing)
  *(vtable)
  *(.eh_frame*)
  *(.glue_7)
- .glue_7        0x0000000008001a98        0x0 linker stubs
+ .glue_7        0x0000000008001ab8        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008001a98        0x0 linker stubs
+ .glue_7t       0x0000000008001ab8        0x0 linker stubs
 
-.vfp11_veneer   0x0000000008001a98        0x0
- .vfp11_veneer  0x0000000008001a98        0x0 linker stubs
+.vfp11_veneer   0x0000000008001ab8        0x0
+ .vfp11_veneer  0x0000000008001ab8        0x0 linker stubs
 
-.v4_bx          0x0000000008001a98        0x0
- .v4_bx         0x0000000008001a98        0x0 linker stubs
+.v4_bx          0x0000000008001ab8        0x0
+ .v4_bx         0x0000000008001ab8        0x0 linker stubs
 
-.iplt           0x0000000008001a98        0x0
- .iplt          0x0000000008001a98        0x0 ./system/src/stm32f1-stdperiph/misc.o
+.iplt           0x0000000008001ab8        0x0
+ .iplt          0x0000000008001ab8        0x0 ./system/src/stm32f1-stdperiph/misc.o
 
-.rel.dyn        0x0000000008001a98        0x0
- .rel.iplt      0x0000000008001a98        0x0 ./system/src/stm32f1-stdperiph/misc.o
+.rel.dyn        0x0000000008001ab8        0x0
+ .rel.iplt      0x0000000008001ab8        0x0 ./system/src/stm32f1-stdperiph/misc.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000008001a98                . = ALIGN (0x4)
-                0x0000000008001a98                __exidx_start = .
+                0x0000000008001ab8                . = ALIGN (0x4)
+                0x0000000008001ab8                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000008001a98                __exidx_end = .
-                0x0000000008001a98                . = ALIGN (0x4)
-                0x0000000008001a98                _etext = .
-                0x0000000008001a98                __etext = .
+                0x0000000008001ab8                __exidx_end = .
+                0x0000000008001ab8                . = ALIGN (0x4)
+                0x0000000008001ab8                _etext = .
+                0x0000000008001ab8                __etext = .
 
-.data_CCMRAM    0x0000000000000000        0x0 load address 0x0000000008001a98
+.data_CCMRAM    0x0000000000000000        0x0 load address 0x0000000008001ab8
  FILL mask 0xff
  *(.data.CCMRAM .data.CCMRAM.*)
                 0x0000000000000000                . = ALIGN (0x4)
-                0x0000000008001a98                _sidata = LOADADDR (.data)
+                0x0000000008001ab8                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x30 load address 0x0000000008001a98
+.data           0x0000000020000000       0x30 load address 0x0000000008001ab8
  FILL mask 0xff
                 0x0000000020000000                _sdata = .
                 0x0000000020000000                __data_start__ = .
@@ -1657,7 +1657,7 @@ END GROUP
                 0x0000000020000030                _edata = .
                 0x0000000020000030                __data_end__ = .
 
-.igot.plt       0x0000000020000030        0x0 load address 0x0000000008001ac8
+.igot.plt       0x0000000020000030        0x0 load address 0x0000000008001ae8
  .igot.plt      0x0000000020000030        0x0 ./system/src/stm32f1-stdperiph/misc.o
 
 .bss_CCMRAM     0x0000000000000000        0x0
@@ -1950,7 +1950,7 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000    0x10a79
+.debug_info     0x0000000000000000    0x10aae
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000      0x530 ./system/src/stm32f1-stdperiph/misc.o
  .debug_info    0x0000000000000530      0xbc7 ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
@@ -1979,12 +1979,12 @@ END GROUP
  .debug_info    0x000000000000beb0     0x130d ./src/core/dbg.o
  .debug_info    0x000000000000d1bd      0x44b ./src/core/pogPWM.o
  .debug_info    0x000000000000d608     0x14b5 ./src/core/protocol.o
- .debug_info    0x000000000000eabd      0x410 ./src/main.o
- .debug_info    0x000000000000eecd      0x969 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
- .debug_info    0x000000000000f836      0x8b1 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
- .debug_info    0x00000000000100e7      0x992 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
+ .debug_info    0x000000000000eabd      0x445 ./src/main.o
+ .debug_info    0x000000000000ef02      0x969 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
+ .debug_info    0x000000000000f86b      0x8b1 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
+ .debug_info    0x000000000001011c      0x992 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
 
-.debug_abbrev   0x0000000000000000     0x390f
+.debug_abbrev   0x0000000000000000     0x390d
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000      0x181 ./system/src/stm32f1-stdperiph/misc.o
  .debug_abbrev  0x0000000000000181      0x1f4 ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
@@ -2013,12 +2013,12 @@ END GROUP
  .debug_abbrev  0x00000000000029fe      0x348 ./src/core/dbg.o
  .debug_abbrev  0x0000000000002d46      0x1b8 ./src/core/pogPWM.o
  .debug_abbrev  0x0000000000002efe      0x37c ./src/core/protocol.o
- .debug_abbrev  0x000000000000327a      0x17e ./src/main.o
- .debug_abbrev  0x00000000000033f8      0x1de /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
- .debug_abbrev  0x00000000000035d6      0x168 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
- .debug_abbrev  0x000000000000373e      0x1d1 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
+ .debug_abbrev  0x000000000000327a      0x17c ./src/main.o
+ .debug_abbrev  0x00000000000033f6      0x1de /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
+ .debug_abbrev  0x00000000000035d4      0x168 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
+ .debug_abbrev  0x000000000000373c      0x1d1 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
 
-.debug_line     0x0000000000000000     0x445d
+.debug_line     0x0000000000000000     0x4461
  *(.debug_line)
  .debug_line    0x0000000000000000      0x16d ./system/src/stm32f1-stdperiph/misc.o
  .debug_line    0x000000000000016d      0x45c ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
@@ -2047,12 +2047,12 @@ END GROUP
  .debug_line    0x00000000000036d0      0x283 ./src/core/dbg.o
  .debug_line    0x0000000000003953      0x1f7 ./src/core/pogPWM.o
  .debug_line    0x0000000000003b4a      0x367 ./src/core/protocol.o
- .debug_line    0x0000000000003eb1      0x158 ./src/main.o
- .debug_line    0x0000000000004009      0x161 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
- .debug_line    0x000000000000416a      0x152 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
- .debug_line    0x00000000000042bc      0x1a1 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
+ .debug_line    0x0000000000003eb1      0x15c ./src/main.o
+ .debug_line    0x000000000000400d      0x161 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
+ .debug_line    0x000000000000416e      0x152 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
+ .debug_line    0x00000000000042c0      0x1a1 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
 
-.debug_frame    0x0000000000000000     0x1da0
+.debug_frame    0x0000000000000000     0x1dac
  *(.debug_frame)
  .debug_frame   0x0000000000000000       0x68 ./system/src/stm32f1-stdperiph/misc.o
  .debug_frame   0x0000000000000068      0x290 ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
@@ -2081,12 +2081,12 @@ END GROUP
  .debug_frame   0x0000000000001984       0xc0 ./src/core/dbg.o
  .debug_frame   0x0000000000001a44       0xb8 ./src/core/pogPWM.o
  .debug_frame   0x0000000000001afc      0x19c ./src/core/protocol.o
- .debug_frame   0x0000000000001c98       0x60 ./src/main.o
- .debug_frame   0x0000000000001cf8       0x3c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
- .debug_frame   0x0000000000001d34       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
- .debug_frame   0x0000000000001d54       0x4c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
+ .debug_frame   0x0000000000001c98       0x6c ./src/main.o
+ .debug_frame   0x0000000000001d04       0x3c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
+ .debug_frame   0x0000000000001d40       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
+ .debug_frame   0x0000000000001d60       0x4c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
 
-.debug_str      0x0000000000000000     0x4367
+.debug_str      0x0000000000000000     0x4365
  *(.debug_str)
  .debug_str     0x0000000000000000      0x359 ./system/src/stm32f1-stdperiph/misc.o
                                         0x3e4 (size before relaxing)
@@ -2134,21 +2134,21 @@ END GROUP
                                         0xaf8 (size before relaxing)
  .debug_str     0x0000000000003789      0x1fc ./src/sysBase/utility_timer.o
                                         0xb03 (size before relaxing)
- .debug_str     0x0000000000003985      0x189 ./src/core/core.o
-                                        0x5c6 (size before relaxing)
- .debug_str     0x0000000000003b0e      0x204 ./src/core/dbg.o
+ .debug_str     0x0000000000003985      0x187 ./src/core/core.o
+                                        0x5c4 (size before relaxing)
+ .debug_str     0x0000000000003b0c      0x204 ./src/core/dbg.o
                                         0x94c (size before relaxing)
- .debug_str     0x0000000000003d12       0x80 ./src/core/pogPWM.o
+ .debug_str     0x0000000000003d10       0x80 ./src/core/pogPWM.o
                                         0x488 (size before relaxing)
- .debug_str     0x0000000000003d92      0x34a ./src/core/protocol.o
+ .debug_str     0x0000000000003d90      0x34a ./src/core/protocol.o
                                         0x95a (size before relaxing)
- .debug_str     0x00000000000040dc       0x2e ./src/main.o
-                                        0x39a (size before relaxing)
- .debug_str     0x000000000000410a      0x178 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
+ .debug_str     0x00000000000040da       0x2e ./src/main.o
+                                        0x398 (size before relaxing)
+ .debug_str     0x0000000000004108      0x178 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
                                         0x5c9 (size before relaxing)
- .debug_str     0x0000000000004282       0xa5 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
+ .debug_str     0x0000000000004280       0xa5 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
                                         0x5bc (size before relaxing)
- .debug_str     0x0000000000004327       0x40 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
+ .debug_str     0x0000000000004325       0x40 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
                                         0x5cc (size before relaxing)
 
 .debug_loc      0x0000000000000000     0x5412
@@ -2196,7 +2196,7 @@ END GROUP
  *(.debug_varnames)
 OUTPUT(IceCube.elf elf32-littlearm)
 
-.debug_ranges   0x0000000000000000      0xd60
+.debug_ranges   0x0000000000000000      0xd78
  .debug_ranges  0x0000000000000000       0x30 ./system/src/stm32f1-stdperiph/misc.o
  .debug_ranges  0x0000000000000030      0x128 ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
  .debug_ranges  0x0000000000000158       0x68 ./system/src/stm32f1-stdperiph/stm32f10x_bkp.o
@@ -2224,5 +2224,5 @@ OUTPUT(IceCube.elf elf32-littlearm)
  .debug_ranges  0x0000000000000bd0       0x30 ./src/core/dbg.o
  .debug_ranges  0x0000000000000c00       0x48 ./src/core/pogPWM.o
  .debug_ranges  0x0000000000000c48       0xe8 ./src/core/protocol.o
- .debug_ranges  0x0000000000000d30       0x20 ./src/main.o
- .debug_ranges  0x0000000000000d50       0x10 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
+ .debug_ranges  0x0000000000000d30       0x38 ./src/main.o
+ .debug_ranges  0x0000000000000d68       0x10 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)

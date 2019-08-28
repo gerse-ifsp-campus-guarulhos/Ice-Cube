@@ -42,7 +42,7 @@ void loop(void){
 		printDbgU32("sRight",	sRight());
 		printDbgU32("sFront",	sFront());
 		printDbgU32("sBehind",	sBehind());
-		printDbgU32("sbBright",	sbBright());
+		printDbgU32("sbBright",	sbRight());
 		printDbgU32("sbLeft",	sbLeft());
 
 		cltMA(pwm, TURN_BACK);
@@ -52,6 +52,12 @@ void loop(void){
 		if(pwm>DCLY_T) pwm = 0;
 
 		time = millis() + TIME_S_READ;
+
+
+		if(sbRight() > 500){
+			cltMA(500, TURN_FRONT);
+			cltMB(500, TURN_FRONT);
+		}
 	}
 }
 

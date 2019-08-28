@@ -33,7 +33,7 @@ void startUpHardware(void){
 	init_timer_interrupt(MINIMAL_TIME_MS);			// intervalo minimo do tempo para delay/millis
 	init_rtc();						// iniiar relogio interno
 
-	gpio_initAll(false);					// iniciar gpios sem dbg
+	gpio_initAll(true);					// iniciar gpios sem dbg
 	adc1_Init();						// iniciar adcs
 
 //	iniciando POG PWM
@@ -72,7 +72,7 @@ void startUpHardware(void){
  * monitor basico do sistema
 *******************************************************************************/
 void coreMonitor(void){
-	delay_ms(5);					// estabilizar maximo 5 minimo 1
+	delay_ms(1);					// estabilizar maximo 5 minimo 1
 	iwdg_RstCont();					// cão de garda
 }
 
@@ -96,7 +96,7 @@ u16 sBehind(void){
 	return adc1_Read(CH_BEHIND);
 }
 
-u16 sbBright(void){
+u16 sbRight(void){
 	return adc1_Read(CH_BRIGHT);
 }
 
