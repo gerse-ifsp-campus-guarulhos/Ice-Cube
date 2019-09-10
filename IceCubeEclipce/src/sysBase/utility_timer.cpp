@@ -2,6 +2,7 @@
 
 #include <../include/sysBase/utility_timer.h>
 #include <core/pogPWM.h>
+#include <core/core.h>
 #include <misc.h>
 #include <stdint-gcc.h>
 #include <stm32f10x.h>
@@ -152,11 +153,14 @@ void disable_timer_delay(void){
 **************************************************************************/
 extern "C" {
 	void SysTick_Handler(void) {
-		pwmLoop();
+		__NOP();
 	}
 
 	void TIM4_IRQHandler(void) {
 		ticksCont++;
+		testLineR();		// Lina direita
+		testLineL();		// Lina direita
+		testLineU();
 		TIM_ClearITPendingBit(TIM_DELAY, TIM_IT_Update);
 	}
 }

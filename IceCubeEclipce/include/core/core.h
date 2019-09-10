@@ -18,10 +18,16 @@ u16 sFront(void);				// sharp
 u16 sBehind(void);				// sharp
 u16 sbRight(void);				// TCRT500
 u16 sbLeft(void);				// TCRT500
+u16 sbUnder(void);				// ldr
 
 void cltPonteH(bool stop);			//
-void cltMA(u16 dcly, u8 turn);			//
-void cltMB(u16 dcly, u8 turn);			//
+void cltMA(u8 turn);				//
+void cltMB(u8 turn);				//
 
 void loop(void);				//
 void setUp(void);				//
+
+
+void testLineR(void);		// Lina direita
+void testLineL(void);		// Lina resquerda
+void testLineU(void);		// Lina tras

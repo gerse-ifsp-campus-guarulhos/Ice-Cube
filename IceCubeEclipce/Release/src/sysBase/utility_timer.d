@@ -1,7 +1,7 @@
 src/sysBase/utility_timer.o: ../src/sysBase/utility_timer.cpp \
  ../include/../include/sysBase/utility_timer.h ../include/core/pogPWM.h \
  ../include/core/protocol.h ../include/sysBase/utility_timer.h \
- ../system/include/stm32f1-stdperiph/misc.h \
+ ../include/core/core.h ../system/include/stm32f1-stdperiph/misc.h \
  ../system/include/cmsis/stm32f10x.h ../system/include/cmsis/core_cm3.h \
  ../system/include/cmsis/core_cmInstr.h \
  ../system/include/cmsis/cmsis_gcc.h \
@@ -39,6 +39,8 @@ src/sysBase/utility_timer.o: ../src/sysBase/utility_timer.cpp \
 ../include/core/protocol.h:
 
 ../include/sysBase/utility_timer.h:
+
+../include/core/core.h:
 
 ../system/include/stm32f1-stdperiph/misc.h:
 

@@ -24,11 +24,29 @@
 #define V_MID			400	//
 #define V_MIN			350	//
 
+
+//#define V_MAX			190	//
+//#define V_MID			190	//
+//#define V_MIN			190	//
+
+
 /* Private variables ------------------------------------------------------------------------------------------------------------------------------------ */
+
+bool lineL = false;
+bool lineR = false;
+bool lineU = false;
+bool initOK = false;
+
 /* Private Functions ------------------------------------------------------------------------------------------------------------------------------------ */
 void empurrar(void);
 void travarL(void);
 void travarR(void);
+void travarB(void);
+void findR(void);
+void findL(void);
+
+
+
 void dbg(void);
 
 /*******************************************************************************
@@ -36,12 +54,13 @@ void dbg(void);
 *******************************************************************************/
 void setUp(void){
 	cltPonteH(true);
-	cltMA(0, TURN_OFF);
-	cltMB(0, TURN_OFF);
+	cltMA(TURN_OFF);
+	cltMB(TURN_OFF);
 
+	initOK = true;
 	printDbgSTR(NULL, "INIT... OK");
 
-
+	findR();		// primeira procura a direitra, está budado
 
 
 }
@@ -51,8 +70,20 @@ void setUp(void){
  * FAZER O PROGRAMA PRINCIPAL AQUI...
 *******************************************************************************/
 void loop(void){
-	empurrar();
-	dbg();
+	if(lineL || lineR){
+		cltMB(TURN_BACK);
+		cltMA(TURN_BACK);
+		delay_ms(600);
+
+		findR();
+
+		lineR = false;
+		lineL = false;
+		lineU = false;
+	} else {
+		empurrar();
+	}
+//	dbg();
 }
 
 
@@ -66,41 +97,40 @@ void loop(void){
 /* enpura e resolve mira */
 void empurrar(void){
 	u16 value = sFront();
-	if((value > R_MIN) &&  (value < R_MID)){
-		cltMA(V_MID, TURN_FRONT);
-		cltMB(V_MID, TURN_FRONT);
-	} else if(value > R_MID){
-		cltMA(V_MAX, TURN_FRONT);
-		cltMB(V_MAX, TURN_FRONT);
+	if(value > R_MID){
+		cltMA(TURN_FRONT);
+		cltMB(TURN_FRONT);
 	} else {
 		travarL();
 		travarR();
+		travarB();
 	}
 }
 
 /* trava o alvo caso saia da mira, direira para esquerda  */
 void travarL(void){
 	u16 value = sLeft();
-	if((value > R_MIN) &&  (value < R_MID)){
-		cltMA(V_MIN, TURN_FRONT);
-		cltMB(V_MIN, TURN_BACK);
-	} else if(value > R_MID){
-		cltMA(V_MAX, TURN_FRONT);
-		cltMB(V_MAX, TURN_BACK);
+	if(value > R_MID){
+		findL();
 	}
 }
 
 /* trava o alvo caso saia da mira, esquerda para a direita  */
 void travarR(void){
 	u16 value = sRight();
-	if((value > R_MIN) &&  (value < R_MID)){
-		cltMA(V_MIN, TURN_BACK);
-		cltMB(V_MIN, TURN_FRONT);
-	} else if(value > R_MID){
-		cltMA(V_MAX, TURN_BACK);
-		cltMB(V_MAX, TURN_FRONT);
+	if(value > R_MID){
+		findR();
 	}
 }
+
+/* trava o alvo caso saia da mira, esquerda para a direita  */
+void travarB(void){
+	u16 value = sBehind();
+	if((value > R_MID)){
+		findR();
+	}
+}
+
 
 
 void dbg(void){
@@ -112,6 +142,7 @@ void dbg(void){
 		printDbgU32("sBehind", sBehind());
 		printDbgU32("sbRight", sbRight());
 		printDbgU32("sbLeft", sbLeft());
+		printDbgU32("sbUnder", sbUnder());
 		printDbgSTR(NULL, "---------\n");
 
 		time = millis() + TIME_S_READ;
@@ -119,12 +150,31 @@ void dbg(void){
 }
 
 
-//void findL(void){}			// primeira procura a esquerda
-//void findR(void){}			// primeira procura a direita
-//bool testLine(void){}			// vefificador de linha
-//bool testLineR(void){}		// Lina direita
-//bool testLineL(void){}		// Linha esquerda
+void testLineR(void){		// Lina direita
+	if(initOK == false) return;
+	if(sbRight() < 333) lineR = true;
+}
 
+void testLineL(void){		// Lina direita
+	if(initOK == false) return;
+	if(sbLeft() < 333) lineL = true;
+}
+
+void testLineU(void){		// Lina direita
+	if(initOK == false) return;
+	if(sbUnder() > 3500) lineU = true;
+}
+
+
+void findR(void){			// primeira procura a direita
+	cltMA(TURN_FRONT);
+	cltMB(TURN_BACK);
+}
+
+void findL(void){			// primeira procura a direita
+	cltMA(TURN_BACK);
+	cltMB(TURN_FRONT);
+}
 
 
 

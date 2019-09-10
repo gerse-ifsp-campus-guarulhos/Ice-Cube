@@ -29,12 +29,14 @@
 #define S_RIGHT			GPIOA3
 #define S_BLEFT			GPIOA4
 #define S_BRIGHT		GPIOA5
+#define S_BUNDER		GPIOA6
 #define CH_FRONT		ADC_CH0
 #define CH_BEHIND		ADC_CH1
 #define CH_LEFT			ADC_CH2
 #define CH_RIGHT		ADC_CH3
 #define CH_BLEFT		ADC_CH4
 #define CH_BRIGHT		ADC_CH5
+#define CH_BUNDER		ADC_CH6
 
 #define CLT_PH			GPIOB14
 

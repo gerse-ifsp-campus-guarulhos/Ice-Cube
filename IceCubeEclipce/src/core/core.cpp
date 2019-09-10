@@ -36,9 +36,11 @@ void startUpHardware(void){
 	gpio_initAll(true);					// iniciar gpios sem dbg
 	adc1_Init();						// iniciar adcs
 
-//	iniciando POG PWM
-	initPWM();
-	pwmENABLE(true);
+	gpio_Mode(CLT_MA, GPIO_Mode_Out_PP);
+	gpio_Mode(CLT_MB, GPIO_Mode_Out_PP);
+	gpio_Write(CLT_MA, false);
+	gpio_Write(CLT_MB, false);
+
 
 //	saida
 	gpio_Mode(LED, GPIO_Mode_Out_PP);
@@ -58,10 +60,14 @@ void startUpHardware(void){
 	gpio_Mode(S_RIGHT, GPIO_Mode_AIN);
 	gpio_Mode(S_BLEFT, GPIO_Mode_AIN);
 	gpio_Mode(S_BRIGHT, GPIO_Mode_AIN);
+	gpio_Mode(S_BUNDER, GPIO_Mode_AIN);
+
+
+	delay_ms(5000);
 
 	/* iniciar cão de garda para previnir loops	*/
 	/* infinitos 					*/
-	iwdg_Init(4095, IWDG_Prescaler_8);
+	iwdg_Init(4095, IWDG_Prescaler_16);
 
 	usart3_Setup(BAUDRATE);
 }
@@ -104,6 +110,10 @@ u16 sbLeft(void){
 	return adc1_Read(CH_BLEFT);
 }
 
+u16 sbUnder(void){
+	return adc1_Read(CH_BUNDER);
+}
+
 /*******************************************************************************
  * clt ponte H
 *******************************************************************************/
@@ -116,8 +126,8 @@ void cltPonteH(bool stop){
  * clt motor A dcly 0 a DCLY_T
  * comandos posiveis TURN_BACK , TURN_FRONT, TURN_OFF
 *******************************************************************************/
-void cltMA(u16 dcly, u8 turn){
-	setDclyMA(dcly);
+void cltMA(u8 turn){
+	gpio_Write(CLT_MA, true);
 	switch(turn){
 		case TURN_BACK:
 			gpio_Write(PIN_MA1, true);
@@ -131,7 +141,7 @@ void cltMA(u16 dcly, u8 turn){
 
 		case TURN_OFF:
 		default:
-			setDclyMA(0);
+			gpio_Write(CLT_MA, false);
 			gpio_Write(PIN_MA1, false);
 			gpio_Write(PIN_MA2, false);
 			break;
@@ -143,8 +153,8 @@ void cltMA(u16 dcly, u8 turn){
  * clt motor b dcly 0 a DCLY_T
  * comandos posiveis TURN_BACK , TURN_FRONT, TURN_OFF
 *******************************************************************************/
-void cltMB(u16 dcly, u8 turn){
-	setDclyMB(dcly);
+void cltMB(u8 turn){
+	gpio_Write(CLT_MB, true);
 	switch(turn){
 		case TURN_BACK:
 			gpio_Write(PIN_MB1, true);
@@ -158,7 +168,7 @@ void cltMB(u16 dcly, u8 turn){
 
 		case TURN_OFF:
 		default:
-			setDclyMB(0);
+			gpio_Write(CLT_MB, false);
 			gpio_Write(PIN_MB1, false);
 			gpio_Write(PIN_MB2, false);
 			break;

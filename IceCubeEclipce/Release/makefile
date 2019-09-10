@@ -50,38 +50,38 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 SECONDARY_FLASH += \
-IceCube.hex \
+IceCubeEclipce.hex \
 
 SECONDARY_SIZE += \
-IceCube.siz \
+IceCubeEclipce.siz \
 
 
 # All Target
-all: IceCube.elf secondary-outputs
+all: IceCubeEclipce.elf secondary-outputs
 
 # Tool invocations
-IceCube.elf: $(OBJS) $(USER_OBJS)
+IceCubeEclipce.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GNU ARM Cross C++ Linker'
-	arm-none-eabi-g++ -mcpu=cortex-m3 -mthumb -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -Wall -Wextra  -g -T mem.ld -T libs.ld -T sections.ld -nostartfiles -Xlinker --gc-sections -L"../ldscripts" -Wl,-Map,"IceCube.map" --specs=nano.specs -o "IceCube.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-g++ -mcpu=cortex-m3 -mthumb -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -Wall -Wextra  -g -T mem.ld -T libs.ld -T sections.ld -nostartfiles -Xlinker --gc-sections -L"../ldscripts" -Wl,-Map,"IceCubeEclipce.map" --specs=nano.specs -o "IceCubeEclipce.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-IceCube.hex: IceCube.elf
+IceCubeEclipce.hex: IceCubeEclipce.elf
 	@echo 'Invoking: GNU ARM Cross Create Flash Image'
-	arm-none-eabi-objcopy -O ihex "IceCube.elf"  "IceCube.hex"
+	arm-none-eabi-objcopy -O ihex "IceCubeEclipce.elf"  "IceCubeEclipce.hex"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-IceCube.siz: IceCube.elf
+IceCubeEclipce.siz: IceCubeEclipce.elf
 	@echo 'Invoking: GNU ARM Cross Print Size'
-	arm-none-eabi-size --format=berkeley "IceCube.elf"
+	arm-none-eabi-size --format=berkeley "IceCubeEclipce.elf"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(CC_DEPS)$(C++_DEPS)$(OBJS)$(C_UPPER_DEPS)$(CXX_DEPS)$(SECONDARY_FLASH)$(SECONDARY_SIZE)$(ASM_DEPS)$(S_UPPER_DEPS)$(C_DEPS)$(CPP_DEPS) IceCube.elf
+	-$(RM) $(CC_DEPS)$(C++_DEPS)$(OBJS)$(C_UPPER_DEPS)$(CXX_DEPS)$(SECONDARY_FLASH)$(SECONDARY_SIZE)$(ASM_DEPS)$(S_UPPER_DEPS)$(C_DEPS)$(CPP_DEPS) IceCubeEclipce.elf
 	-@echo ' '
 
 secondary-outputs: $(SECONDARY_FLASH) $(SECONDARY_SIZE)
