@@ -38,12 +38,15 @@ bool lineU = false;
 bool initOK = false;
 
 /* Private Functions ------------------------------------------------------------------------------------------------------------------------------------ */
-void empurrar(void);
-void travarL(void);
-void travarR(void);
-void travarB(void);
+bool empurrar(void);
+bool foje(void);
+u16 travarL(void);
+u16 travarR(void);
+u16 travarB(void);
 void findR(void);
 void findL(void);
+void findB(void);
+void findF(void);
 
 
 
@@ -70,23 +73,11 @@ void setUp(void){
  * FAZER O PROGRAMA PRINCIPAL AQUI...
 *******************************************************************************/
 void loop(void){
-	if(lineL || lineR){
-		cltMB(TURN_BACK);
-		cltMA(TURN_BACK);
-		delay_ms(600);
-
-		findR();
-
-		lineR = false;
-		lineL = false;
-		lineU = false;
-	} else {
+	if(foje() == false){
 		empurrar();
 	}
 //	dbg();
 }
-
-
 
 
 /* ###################################################################################################################################################### */
@@ -95,40 +86,117 @@ void loop(void){
 /* Private Functions ------------------------------------------------------------------------------------------------------------------------------------ */
 
 /* enpura e resolve mira */
-void empurrar(void){
+bool empurrar(void){
 	u16 value = sFront();
 	if(value > R_MID){
-		cltMA(TURN_FRONT);
-		cltMB(TURN_FRONT);
-	} else {
-		travarL();
-		travarR();
-		travarB();
+		findF();
+		return true;
 	}
+
+	travarL();
+	travarR();
+	travarB();
+	return false;
+}
+
+/* foje da linha */
+bool foje(void){
+	if(lineL || lineR || lineU){
+		if(lineU){
+			findF();
+		} else {
+			findB();
+		}
+
+		delay_ms(600);
+
+		findR();
+
+		lineR = false;
+		lineL = false;
+		lineU = false;
+		return true;
+	}
+	return false;
 }
 
 /* trava o alvo caso saia da mira, direira para esquerda  */
-void travarL(void){
+u16 travarF(void){
 	u16 value = sLeft();
 	if(value > R_MID){
 		findL();
 	}
+	return value;
+}
+
+
+
+/* trava o alvo caso saia da mira, direira para esquerda  */
+u16 travarL(void){
+	u16 value = sLeft();
+	if(value > R_MID){
+		findL();
+	}
+	return value;
 }
 
 /* trava o alvo caso saia da mira, esquerda para a direita  */
-void travarR(void){
+u16 travarR(void){
 	u16 value = sRight();
 	if(value > R_MID){
 		findR();
 	}
+	return value;
 }
 
 /* trava o alvo caso saia da mira, esquerda para a direita  */
-void travarB(void){
+u16 travarB(void){
 	u16 value = sBehind();
 	if((value > R_MID)){
 		findR();
 	}
+	return value;
+}
+
+void testLineR(void){		// Lina direita
+	if(initOK == false) return;
+	if(sbRight() < 333) lineR = true;
+}
+
+void testLineL(void){		// Lina direita
+	if(initOK == false) return;
+	if(sbLeft() < 333) lineL = true;
+}
+
+/* Lina direita */
+void testLineU(void){
+	if(initOK == false) return;
+	if(sbUnder() > 1500) lineU = true;
+}
+
+/* primeira procura a direita */
+void findR(void){
+	cltMA(TURN_FRONT);
+	cltMB(TURN_BACK);
+}
+
+
+/* primeira procura a direita */
+void findL(void){
+	cltMA(TURN_BACK);
+	cltMB(TURN_FRONT);
+}
+
+/* primeira procura frente */
+void findB(void){
+	cltMA(TURN_BACK);
+	cltMB(TURN_BACK);
+}
+
+/* primeira procura traz */
+void findF(void){
+	cltMA(TURN_FRONT);
+	cltMB(TURN_FRONT);
 }
 
 
@@ -148,33 +216,3 @@ void dbg(void){
 		time = millis() + TIME_S_READ;
 	}
 }
-
-
-void testLineR(void){		// Lina direita
-	if(initOK == false) return;
-	if(sbRight() < 333) lineR = true;
-}
-
-void testLineL(void){		// Lina direita
-	if(initOK == false) return;
-	if(sbLeft() < 333) lineL = true;
-}
-
-void testLineU(void){		// Lina direita
-	if(initOK == false) return;
-	if(sbUnder() > 3500) lineU = true;
-}
-
-
-void findR(void){			// primeira procura a direita
-	cltMA(TURN_FRONT);
-	cltMB(TURN_BACK);
-}
-
-void findL(void){			// primeira procura a direita
-	cltMA(TURN_BACK);
-	cltMB(TURN_FRONT);
-}
-
-
-
