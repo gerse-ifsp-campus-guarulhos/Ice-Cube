@@ -20,3 +20,10 @@ O bluetooth está aí para ajudar no desenvolvimento do programa e não vais est
 
 
 ![imagem 3d da pcb](outros/pcb1.jpg)
+
+
+## Projeto Final 
+
+- O reultado final foi o robo abaixo que competiu na na winter challenge concórdia.
+
+![](outros/icefinal.JPG)
