@@ -27,3 +27,7 @@ O bluetooth está aí para ajudar no desenvolvimento do programa e não vais est
 - O reultado final foi o robo abaixo que competiu na na winter challenge concórdia.
 
 ![](outros/icefinal.JPG)
+
+## Quanto á sua performace
+
+![](outros/gif.mp4)
