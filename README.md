@@ -30,4 +30,4 @@ O bluetooth está aí para ajudar no desenvolvimento do programa e não vais est
 
 ## Quanto á sua performace
 
-![](outros/gif.MP4)
+![](outros/gif.gif)
