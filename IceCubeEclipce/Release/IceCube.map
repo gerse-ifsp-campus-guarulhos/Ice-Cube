@@ -157,7 +157,7 @@ Discarded input sections
                 0x0000000000000000       0x50 ./system/src/stm32f1-stdperiph/stm32f10x_exti.o
  .debug_ranges  0x0000000000000000       0x40 ./system/src/stm32f1-stdperiph/stm32f10x_exti.o
  .debug_line    0x0000000000000000      0x1b3 ./system/src/stm32f1-stdperiph/stm32f10x_exti.o
- .debug_str     0x0000000000000000      0x379 ./system/src/stm32f1-stdperiph/stm32f10x_exti.o
+ .debug_str     0x0000000000000000      0x38a ./system/src/stm32f1-stdperiph/stm32f10x_exti.o
  .comment       0x0000000000000000       0x32 ./system/src/stm32f1-stdperiph/stm32f10x_exti.o
  .debug_frame   0x0000000000000000       0x9c ./system/src/stm32f1-stdperiph/stm32f10x_exti.o
  .ARM.attributes
@@ -228,7 +228,7 @@ Discarded input sections
                 0x0000000000000000       0xd8 ./system/src/stm32f1-stdperiph/stm32f10x_flash.o
  .debug_ranges  0x0000000000000000       0xc8 ./system/src/stm32f1-stdperiph/stm32f10x_flash.o
  .debug_line    0x0000000000000000      0x3d0 ./system/src/stm32f1-stdperiph/stm32f10x_flash.o
- .debug_str     0x0000000000000000      0x603 ./system/src/stm32f1-stdperiph/stm32f10x_flash.o
+ .debug_str     0x0000000000000000      0x614 ./system/src/stm32f1-stdperiph/stm32f10x_flash.o
  .comment       0x0000000000000000       0x32 ./system/src/stm32f1-stdperiph/stm32f10x_flash.o
  .debug_frame   0x0000000000000000      0x244 ./system/src/stm32f1-stdperiph/stm32f10x_flash.o
  .ARM.attributes
@@ -575,7 +575,7 @@ Discarded input sections
                 0x0000000000000000       0x20 ./system/src/newlib/_cxx.o
  .debug_ranges  0x0000000000000000       0x10 ./system/src/newlib/_cxx.o
  .debug_line    0x0000000000000000      0x18e ./system/src/newlib/_cxx.o
- .debug_str     0x0000000000000000      0x7cf ./system/src/newlib/_cxx.o
+ .debug_str     0x0000000000000000      0x7e0 ./system/src/newlib/_cxx.o
  .comment       0x0000000000000000       0x32 ./system/src/newlib/_cxx.o
  .debug_frame   0x0000000000000000       0x40 ./system/src/newlib/_cxx.o
  .ARM.attributes
@@ -597,7 +597,7 @@ Discarded input sections
                 0x0000000000000000       0x20 ./system/src/newlib/_sbrk.o
  .debug_ranges  0x0000000000000000       0x10 ./system/src/newlib/_sbrk.o
  .debug_line    0x0000000000000000       0xe3 ./system/src/newlib/_sbrk.o
- .debug_str     0x0000000000000000      0x5bb ./system/src/newlib/_sbrk.o
+ .debug_str     0x0000000000000000      0x5cc ./system/src/newlib/_sbrk.o
  .comment       0x0000000000000000       0x32 ./system/src/newlib/_sbrk.o
  .debug_frame   0x0000000000000000       0x28 ./system/src/newlib/_sbrk.o
  .ARM.attributes
@@ -633,7 +633,7 @@ Discarded input sections
                 0x0000000000000000       0x20 ./system/src/newlib/assert.o
  .debug_ranges  0x0000000000000000       0x10 ./system/src/newlib/assert.o
  .debug_line    0x0000000000000000      0x116 ./system/src/newlib/assert.o
- .debug_str     0x0000000000000000      0x5c4 ./system/src/newlib/assert.o
+ .debug_str     0x0000000000000000      0x5d5 ./system/src/newlib/assert.o
  .comment       0x0000000000000000       0x32 ./system/src/newlib/assert.o
  .debug_frame   0x0000000000000000       0x28 ./system/src/newlib/assert.o
  .ARM.attributes
@@ -642,7 +642,7 @@ Discarded input sections
  .data          0x0000000000000000        0x0 ./system/src/diag/Trace.o
  .bss           0x0000000000000000        0x0 ./system/src/diag/Trace.o
  .debug_line    0x0000000000000000        0x0 ./system/src/diag/Trace.o
- .debug_str     0x0000000000000000       0xd5 ./system/src/diag/Trace.o
+ .debug_str     0x0000000000000000       0xe6 ./system/src/diag/Trace.o
  .comment       0x0000000000000000       0x32 ./system/src/diag/Trace.o
  .ARM.attributes
                 0x0000000000000000       0x33 ./system/src/diag/Trace.o
@@ -650,7 +650,7 @@ Discarded input sections
  .data          0x0000000000000000        0x0 ./system/src/diag/trace_impl.o
  .bss           0x0000000000000000        0x0 ./system/src/diag/trace_impl.o
  .debug_line    0x0000000000000000        0x0 ./system/src/diag/trace_impl.o
- .debug_str     0x0000000000000000       0xda ./system/src/diag/trace_impl.o
+ .debug_str     0x0000000000000000       0xeb ./system/src/diag/trace_impl.o
  .comment       0x0000000000000000       0x32 ./system/src/diag/trace_impl.o
  .ARM.attributes
                 0x0000000000000000       0x33 ./system/src/diag/trace_impl.o
@@ -704,7 +704,7 @@ Discarded input sections
                 0x0000000000000000       0x68 ./src/sysBase/flash.o
  .debug_ranges  0x0000000000000000       0x70 ./src/sysBase/flash.o
  .debug_line    0x0000000000000000      0x31e ./src/sysBase/flash.o
- .debug_str     0x0000000000000000      0x9a5 ./src/sysBase/flash.o
+ .debug_str     0x0000000000000000      0x9b6 ./src/sysBase/flash.o
  .comment       0x0000000000000000       0x32 ./src/sysBase/flash.o
  .debug_frame   0x0000000000000000      0x100 ./src/sysBase/flash.o
  .ARM.attributes
@@ -738,7 +738,7 @@ Discarded input sections
                 0x0000000000000000       0x38 ./src/sysBase/pwm.o
  .debug_ranges  0x0000000000000000       0x28 ./src/sysBase/pwm.o
  .debug_line    0x0000000000000000      0x1d7 ./src/sysBase/pwm.o
- .debug_str     0x0000000000000000      0x703 ./src/sysBase/pwm.o
+ .debug_str     0x0000000000000000      0x714 ./src/sysBase/pwm.o
  .comment       0x0000000000000000       0x32 ./src/sysBase/pwm.o
  .debug_frame   0x0000000000000000       0x94 ./src/sysBase/pwm.o
  .ARM.attributes
@@ -759,6 +759,8 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 ./src/sysBase/utility_timer.o
  .text._Z10timeout_msy
                 0x0000000000000000       0x18 ./src/sysBase/utility_timer.o
+ .text._Z11set_counterm
+                0x0000000000000000       0x34 ./src/sysBase/utility_timer.o
  .text._Z19disable_timer_delayv
                 0x0000000000000000       0x24 ./src/sysBase/utility_timer.o
  .text          0x0000000000000000        0x0 ./src/core/core.o
@@ -769,9 +771,46 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 ./src/core/dbg.o
  .text._Z11serialPrintPKcc
                 0x0000000000000000       0x20 ./src/core/dbg.o
+ .text._Z11printDbgU32PKcm
+                0x0000000000000000       0x30 ./src/core/dbg.o
  .text          0x0000000000000000        0x0 ./src/core/pogPWM.o
  .data          0x0000000000000000        0x0 ./src/core/pogPWM.o
  .bss           0x0000000000000000        0x0 ./src/core/pogPWM.o
+ .text._Z7initPWMv
+                0x0000000000000000       0x5c ./src/core/pogPWM.o
+ .text._Z9pwmENABLEb
+                0x0000000000000000       0x30 ./src/core/pogPWM.o
+ .text._Z9setDclyMAt
+                0x0000000000000000       0x14 ./src/core/pogPWM.o
+ .text._Z9setDclyMBt
+                0x0000000000000000       0x14 ./src/core/pogPWM.o
+ .text._Z11selectBordAv
+                0x0000000000000000       0x20 ./src/core/pogPWM.o
+ .text._Z11selectBordBv
+                0x0000000000000000       0x20 ./src/core/pogPWM.o
+ .text._Z7attDclyv
+                0x0000000000000000       0x2c ./src/core/pogPWM.o
+ .text._Z7pwmLoopv
+                0x0000000000000000       0x34 ./src/core/pogPWM.o
+ .bss.freg      0x0000000000000000        0x2 ./src/core/pogPWM.o
+ .bss.ma        0x0000000000000000        0x2 ./src/core/pogPWM.o
+ .bss.mb        0x0000000000000000        0x2 ./src/core/pogPWM.o
+ .bss.newMa     0x0000000000000000        0x2 ./src/core/pogPWM.o
+ .bss.newMb     0x0000000000000000        0x2 ./src/core/pogPWM.o
+ .bss.pwmEnable
+                0x0000000000000000        0x1 ./src/core/pogPWM.o
+ .debug_info    0x0000000000000000      0x44b ./src/core/pogPWM.o
+ .debug_abbrev  0x0000000000000000      0x1b8 ./src/core/pogPWM.o
+ .debug_loc     0x0000000000000000       0x72 ./src/core/pogPWM.o
+ .debug_aranges
+                0x0000000000000000       0x58 ./src/core/pogPWM.o
+ .debug_ranges  0x0000000000000000       0x48 ./src/core/pogPWM.o
+ .debug_line    0x0000000000000000      0x1f7 ./src/core/pogPWM.o
+ .debug_str     0x0000000000000000      0x499 ./src/core/pogPWM.o
+ .comment       0x0000000000000000       0x32 ./src/core/pogPWM.o
+ .debug_frame   0x0000000000000000       0xb8 ./src/core/pogPWM.o
+ .ARM.attributes
+                0x0000000000000000       0x33 ./src/core/pogPWM.o
  .text          0x0000000000000000        0x0 ./src/core/protocol.o
  .data          0x0000000000000000        0x0 ./src/core/protocol.o
  .bss           0x0000000000000000        0x0 ./src/core/protocol.o
@@ -808,6 +847,17 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ./src/IceCube.o
  .data          0x0000000000000000        0x0 ./src/IceCube.o
  .bss           0x0000000000000000        0x0 ./src/IceCube.o
+ .text._Z7travarFv
+                0x0000000000000000        0x4 ./src/IceCube.o
+ .text._Z5findBv
+                0x0000000000000000       0x12 ./src/IceCube.o
+ .text._Z3dbgv  0x0000000000000000       0xc8 ./src/IceCube.o
+ .bss._ZGVZ3dbgvE4time
+                0x0000000000000000        0x4 ./src/IceCube.o
+ .bss._ZZ3dbgvE4time
+                0x0000000000000000        0x8 ./src/IceCube.o
+ .rodata._Z3dbgv.str1.1
+                0x0000000000000000       0x3e ./src/IceCube.o
  .text          0x0000000000000000        0x0 ./src/main.o
  .data          0x0000000000000000        0x0 ./src/main.o
  .bss           0x0000000000000000        0x0 ./src/main.o
@@ -1083,7 +1133,7 @@ END GROUP
                 0x0000000020004c00                __Main_Stack_Limit = (__stack - __Main_Stack_Size)
                 [!provide]                        PROVIDE (_Main_Stack_Limit, __Main_Stack_Limit)
                 0x0000000000000100                _Minimum_Stack_Size = 0x100
-                0x0000000020000678                PROVIDE (_Heap_Begin, _end_noinit)
+                0x0000000020000660                PROVIDE (_Heap_Begin, _end_noinit)
                 0x0000000020004c00                PROVIDE (_Heap_Limit, (__stack - __Main_Stack_Size))
 
 .isr_vector     0x0000000008000000      0x22a
@@ -1200,16 +1250,16 @@ END GROUP
 
 .inits          0x000000000800022c       0x28
                 0x000000000800022c                __data_regions_array_start = .
-                0x000000000800022c        0x4 LONG 0x8001b7c LOADADDR (.data)
+                0x000000000800022c        0x4 LONG 0x80019e0 LOADADDR (.data)
                 0x0000000008000230        0x4 LONG 0x20000000 ADDR (.data)
                 0x0000000008000234        0x4 LONG 0x20000030 (ADDR (.data) + SIZEOF (.data))
-                0x0000000008000238        0x4 LONG 0x8001b7c LOADADDR (.data_CCMRAM)
+                0x0000000008000238        0x4 LONG 0x80019e0 LOADADDR (.data_CCMRAM)
                 0x000000000800023c        0x4 LONG 0x0 ADDR (.data_CCMRAM)
                 0x0000000008000240        0x4 LONG 0x0 (ADDR (.data_CCMRAM) + SIZEOF (.data_CCMRAM))
                 0x0000000008000244                __data_regions_array_end = .
                 0x0000000008000244                __bss_regions_array_start = .
                 0x0000000008000244        0x4 LONG 0x20000030 ADDR (.bss)
-                0x0000000008000248        0x4 LONG 0x20000678 (ADDR (.bss) + SIZEOF (.bss))
+                0x0000000008000248        0x4 LONG 0x20000660 (ADDR (.bss) + SIZEOF (.bss))
                 0x000000000800024c        0x4 LONG 0x0 ADDR (.bss_CCMRAM)
                 0x0000000008000250        0x4 LONG 0x0 (ADDR (.bss_CCMRAM) + SIZEOF (.bss_CCMRAM))
                 0x0000000008000254                __bss_regions_array_end = .
@@ -1235,7 +1285,7 @@ END GROUP
 .flashtext
  *(.flashtext .flashtext.*)
 
-.text           0x0000000008000254     0x1928
+.text           0x0000000008000254     0x178c
  *(.text .text.*)
  .text.NVIC_Init
                 0x0000000008000254       0x5c ./system/src/stm32f1-stdperiph/misc.o
@@ -1479,178 +1529,172 @@ END GROUP
  .text._Z8delay_msy
                 0x0000000008001300       0x20 ./src/sysBase/utility_timer.o
                 0x0000000008001300                delay_ms(unsigned long long)
- .text._Z11set_counterm
-                0x0000000008001320       0x34 ./src/sysBase/utility_timer.o
-                0x0000000008001320                set_counter(unsigned long)
  .text._Z13write_countery
-                0x0000000008001354        0xc ./src/sysBase/utility_timer.o
-                0x0000000008001354                write_counter(unsigned long long)
+                0x0000000008001320        0xc ./src/sysBase/utility_timer.o
+                0x0000000008001320                write_counter(unsigned long long)
  .text._Z6millisv
-                0x0000000008001360        0xc ./src/sysBase/utility_timer.o
-                0x0000000008001360                millis()
+                0x000000000800132c        0xc ./src/sysBase/utility_timer.o
+                0x000000000800132c                millis()
  .text._Z8init_rtcv
-                0x000000000800136c       0x48 ./src/sysBase/utility_timer.o
-                0x000000000800136c                init_rtc()
+                0x0000000008001338       0x48 ./src/sysBase/utility_timer.o
+                0x0000000008001338                init_rtc()
  .text._Z20init_timer_interruptt
-                0x00000000080013b4       0x74 ./src/sysBase/utility_timer.o
-                0x00000000080013b4                init_timer_interrupt(unsigned short)
+                0x0000000008001380       0x74 ./src/sysBase/utility_timer.o
+                0x0000000008001380                init_timer_interrupt(unsigned short)
  .text.SysTick_Handler
-                0x0000000008001428        0x4 ./src/sysBase/utility_timer.o
-                0x0000000008001428                SysTick_Handler
+                0x00000000080013f4        0x4 ./src/sysBase/utility_timer.o
+                0x00000000080013f4                SysTick_Handler
  .text.TIM4_IRQHandler
-                0x000000000800142c       0x20 ./src/sysBase/utility_timer.o
-                0x000000000800142c                TIM4_IRQHandler
+                0x00000000080013f8       0x34 ./src/sysBase/utility_timer.o
+                0x00000000080013f8                TIM4_IRQHandler
  .text._Z15startUpHardwarev
-                0x000000000800144c       0x9e ./src/core/core.o
-                0x000000000800144c                startUpHardware()
+                0x000000000800142c       0xc6 ./src/core/core.o
+                0x000000000800142c                startUpHardware()
  .text._Z11coreMonitorv
-                0x00000000080014ea       0x12 ./src/core/core.o
-                0x00000000080014ea                coreMonitor()
+                0x00000000080014f2       0x12 ./src/core/core.o
+                0x00000000080014f2                coreMonitor()
  .text._Z5sLeftv
-                0x00000000080014fc        0x6 ./src/core/core.o
-                0x00000000080014fc                sLeft()
+                0x0000000008001504        0x6 ./src/core/core.o
+                0x0000000008001504                sLeft()
  .text._Z6sRightv
-                0x0000000008001502        0x6 ./src/core/core.o
-                0x0000000008001502                sRight()
+                0x000000000800150a        0x6 ./src/core/core.o
+                0x000000000800150a                sRight()
  .text._Z6sFrontv
-                0x0000000008001508        0x6 ./src/core/core.o
-                0x0000000008001508                sFront()
+                0x0000000008001510        0x6 ./src/core/core.o
+                0x0000000008001510                sFront()
  .text._Z7sBehindv
-                0x000000000800150e        0x6 ./src/core/core.o
-                0x000000000800150e                sBehind()
+                0x0000000008001516        0x6 ./src/core/core.o
+                0x0000000008001516                sBehind()
  .text._Z7sbRightv
-                0x0000000008001514        0x6 ./src/core/core.o
-                0x0000000008001514                sbRight()
+                0x000000000800151c        0x6 ./src/core/core.o
+                0x000000000800151c                sbRight()
  .text._Z6sbLeftv
-                0x000000000800151a        0x6 ./src/core/core.o
-                0x000000000800151a                sbLeft()
+                0x0000000008001522        0x6 ./src/core/core.o
+                0x0000000008001522                sbLeft()
+ .text._Z7sbUnderv
+                0x0000000008001528        0x6 ./src/core/core.o
+                0x0000000008001528                sbUnder()
  .text._Z9cltPonteHb
-                0x0000000008001520        0x8 ./src/core/core.o
-                0x0000000008001520                cltPonteH(bool)
- .text._Z5cltMAth
-                0x0000000008001528       0x38 ./src/core/core.o
-                0x0000000008001528                cltMA(unsigned short, unsigned char)
- .text._Z5cltMBth
-                0x0000000008001560       0x38 ./src/core/core.o
-                0x0000000008001560                cltMB(unsigned short, unsigned char)
+                0x000000000800152e        0x8 ./src/core/core.o
+                0x000000000800152e                cltPonteH(bool)
+ .text._Z5cltMAh
+                0x0000000008001536       0x3e ./src/core/core.o
+                0x0000000008001536                cltMA(unsigned char)
+ .text._Z5cltMBh
+                0x0000000008001574       0x3e ./src/core/core.o
+                0x0000000008001574                cltMB(unsigned char)
+ *fill*         0x00000000080015b2        0x2 
  .text._Z6blkLedv
-                0x0000000008001598       0x40 ./src/core/core.o
-                0x0000000008001598                blkLed()
+                0x00000000080015b4       0x40 ./src/core/core.o
+                0x00000000080015b4                blkLed()
  .text._Z8printRTCv
-                0x00000000080015d8       0x48 ./src/core/dbg.o
-                0x00000000080015d8                printRTC()
+                0x00000000080015f4       0x48 ./src/core/dbg.o
+                0x00000000080015f4                printRTC()
  .text._Z10printLabelPKc
-                0x0000000008001620       0x28 ./src/core/dbg.o
-                0x0000000008001620                printLabel(char const*)
+                0x000000000800163c       0x28 ./src/core/dbg.o
+                0x000000000800163c                printLabel(char const*)
  .text._Z11printDbgSTRPKcS0_
-                0x0000000008001648       0x20 ./src/core/dbg.o
-                0x0000000008001648                printDbgSTR(char const*, char const*)
- .text._Z11printDbgU32PKcm
-                0x0000000008001668       0x30 ./src/core/dbg.o
-                0x0000000008001668                printDbgU32(char const*, unsigned long)
- .text._Z7initPWMv
-                0x0000000008001698       0x5c ./src/core/pogPWM.o
-                0x0000000008001698                initPWM()
- .text._Z9pwmENABLEb
-                0x00000000080016f4       0x30 ./src/core/pogPWM.o
-                0x00000000080016f4                pwmENABLE(bool)
- .text._Z9setDclyMAt
-                0x0000000008001724       0x14 ./src/core/pogPWM.o
-                0x0000000008001724                setDclyMA(unsigned short)
- .text._Z9setDclyMBt
-                0x0000000008001738       0x14 ./src/core/pogPWM.o
-                0x0000000008001738                setDclyMB(unsigned short)
- .text._Z11selectBordAv
-                0x000000000800174c       0x20 ./src/core/pogPWM.o
-                0x000000000800174c                selectBordA()
- .text._Z11selectBordBv
-                0x000000000800176c       0x20 ./src/core/pogPWM.o
-                0x000000000800176c                selectBordB()
- .text._Z7attDclyv
-                0x000000000800178c       0x2c ./src/core/pogPWM.o
-                0x000000000800178c                attDcly()
- .text._Z7pwmLoopv
-                0x00000000080017b8       0x34 ./src/core/pogPWM.o
-                0x00000000080017b8                pwmLoop()
+                0x0000000008001664       0x20 ./src/core/dbg.o
+                0x0000000008001664                printDbgSTR(char const*, char const*)
  .text._Z8zeroLeftPcj
-                0x00000000080017ec       0x2c ./src/core/protocol.o
-                0x00000000080017ec                zeroLeft(char*, unsigned int)
- .text._Z5setUpv
-                0x0000000008001818       0x28 ./src/IceCube.o
-                0x0000000008001818                setUp()
- .text._Z7travarLv
-                0x0000000008001840       0x46 ./src/IceCube.o
-                0x0000000008001840                travarL()
+                0x0000000008001684       0x2c ./src/core/protocol.o
+                0x0000000008001684                zeroLeft(char*, unsigned int)
+ .text._Z9testLineRv
+                0x00000000080016b0       0x24 ./src/IceCube.o
+                0x00000000080016b0                testLineR()
+ .text._Z9testLineLv
+                0x00000000080016d4       0x24 ./src/IceCube.o
+                0x00000000080016d4                testLineL()
+ .text._Z9testLineUv
+                0x00000000080016f8       0x24 ./src/IceCube.o
+                0x00000000080016f8                testLineU()
+ .text._Z5findRv
+                0x000000000800171c       0x12 ./src/IceCube.o
+                0x000000000800171c                findR()
  .text._Z7travarRv
-                0x0000000008001886       0x46 ./src/IceCube.o
-                0x0000000008001886                travarR()
- .text._Z8enpurrarv
-                0x00000000080018cc       0x50 ./src/IceCube.o
-                0x00000000080018cc                enpurrar()
- .text._Z3dbgv  0x000000000800191c       0xb8 ./src/IceCube.o
-                0x000000000800191c                dbg()
+                0x000000000800172e       0x16 ./src/IceCube.o
+                0x000000000800172e                travarR()
+ .text._Z7travarBv
+                0x0000000008001744       0x16 ./src/IceCube.o
+                0x0000000008001744                travarB()
+ .text._Z5findLv
+                0x000000000800175a       0x12 ./src/IceCube.o
+                0x000000000800175a                findL()
+ .text._Z7travarLv
+                0x000000000800176c       0x16 ./src/IceCube.o
+                0x000000000800176c                travarL()
+ .text._Z5findFv
+                0x0000000008001782       0x12 ./src/IceCube.o
+                0x0000000008001782                findF()
+ .text._Z5setUpv
+                0x0000000008001794       0x34 ./src/IceCube.o
+                0x0000000008001794                setUp()
+ .text._Z8empurrarv
+                0x00000000080017c8       0x2c ./src/IceCube.o
+                0x00000000080017c8                empurrar()
+ .text._Z4fojev
+                0x00000000080017f4       0x78 ./src/IceCube.o
+                0x00000000080017f4                foje()
  .text._Z4loopv
-                0x00000000080019d4        0xe ./src/IceCube.o
-                0x00000000080019d4                loop()
+                0x000000000800186c       0x12 ./src/IceCube.o
+                0x000000000800186c                loop()
  .text.startup.main
-                0x00000000080019e2       0x18 ./src/main.o
-                0x00000000080019e2                main
- *fill*         0x00000000080019fa        0x2 
- .text          0x00000000080019fc       0x34 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
-                0x00000000080019fc                __itoa
-                0x0000000008001a2c                itoa
- .text          0x0000000008001a30       0x5c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
-                0x0000000008001a30                strlen
- .text          0x0000000008001a8c       0x84 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
-                0x0000000008001a8c                __utoa
-                0x0000000008001b0c                utoa
+                0x000000000800187e       0x18 ./src/main.o
+                0x000000000800187e                main
+ *fill*         0x0000000008001896        0x2 
+ .text          0x0000000008001898       0x34 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
+                0x0000000008001898                __itoa
+                0x00000000080018c8                itoa
+ .text          0x00000000080018cc       0x5c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
+                0x00000000080018cc                strlen
+ .text          0x0000000008001928       0x84 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
+                0x0000000008001928                __utoa
+                0x00000000080019a8                utoa
  *(.rodata .rodata.* .constdata .constdata.*)
- .rodata._Z3dbgv.str1.1
-                0x0000000008001b10       0x36 ./src/IceCube.o
  .rodata._Z5setUpv.str1.1
-                0x0000000008001b46        0xb ./src/IceCube.o
- *fill*         0x0000000008001b51        0x3 
+                0x00000000080019ac        0xb ./src/IceCube.o
+ *fill*         0x00000000080019b7        0x1 
  .rodata.str1.4
-                0x0000000008001b54       0x28 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
+                0x00000000080019b8       0x28 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
                                          0x25 (size before relaxing)
  *(vtable)
  *(.eh_frame*)
  *(.glue_7)
- .glue_7        0x0000000008001b7c        0x0 linker stubs
+ .glue_7        0x00000000080019e0        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008001b7c        0x0 linker stubs
+ .glue_7t       0x00000000080019e0        0x0 linker stubs
 
-.vfp11_veneer   0x0000000008001b7c        0x0
- .vfp11_veneer  0x0000000008001b7c        0x0 linker stubs
+.vfp11_veneer   0x00000000080019e0        0x0
+ .vfp11_veneer  0x00000000080019e0        0x0 linker stubs
 
-.v4_bx          0x0000000008001b7c        0x0
- .v4_bx         0x0000000008001b7c        0x0 linker stubs
+.v4_bx          0x00000000080019e0        0x0
+ .v4_bx         0x00000000080019e0        0x0 linker stubs
 
-.iplt           0x0000000008001b7c        0x0
- .iplt          0x0000000008001b7c        0x0 ./system/src/stm32f1-stdperiph/misc.o
+.iplt           0x00000000080019e0        0x0
+ .iplt          0x00000000080019e0        0x0 ./system/src/stm32f1-stdperiph/misc.o
 
-.rel.dyn        0x0000000008001b7c        0x0
- .rel.iplt      0x0000000008001b7c        0x0 ./system/src/stm32f1-stdperiph/misc.o
+.rel.dyn        0x00000000080019e0        0x0
+ .rel.iplt      0x00000000080019e0        0x0 ./system/src/stm32f1-stdperiph/misc.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000008001b7c                . = ALIGN (0x4)
-                0x0000000008001b7c                __exidx_start = .
+                0x00000000080019e0                . = ALIGN (0x4)
+                0x00000000080019e0                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000008001b7c                __exidx_end = .
-                0x0000000008001b7c                . = ALIGN (0x4)
-                0x0000000008001b7c                _etext = .
-                0x0000000008001b7c                __etext = .
+                0x00000000080019e0                __exidx_end = .
+                0x00000000080019e0                . = ALIGN (0x4)
+                0x00000000080019e0                _etext = .
+                0x00000000080019e0                __etext = .
 
-.data_CCMRAM    0x0000000000000000        0x0 load address 0x0000000008001b7c
+.data_CCMRAM    0x0000000000000000        0x0 load address 0x00000000080019e0
  FILL mask 0xff
  *(.data.CCMRAM .data.CCMRAM.*)
                 0x0000000000000000                . = ALIGN (0x4)
-                0x0000000008001b7c                _sidata = LOADADDR (.data)
+                0x00000000080019e0                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x30 load address 0x0000000008001b7c
+.data           0x0000000020000000       0x30 load address 0x00000000080019e0
  FILL mask 0xff
                 0x0000000020000000                _sdata = .
                 0x0000000020000000                __data_start__ = .
@@ -1673,13 +1717,13 @@ END GROUP
                 0x0000000020000030                _edata = .
                 0x0000000020000030                __data_end__ = .
 
-.igot.plt       0x0000000020000030        0x0 load address 0x0000000008001bac
+.igot.plt       0x0000000020000030        0x0 load address 0x0000000008001a10
  .igot.plt      0x0000000020000030        0x0 ./system/src/stm32f1-stdperiph/misc.o
 
 .bss_CCMRAM     0x0000000000000000        0x0
  *(.bss.CCMRAM .bss.CCMRAM.*)
 
-.bss            0x0000000020000030      0x648
+.bss            0x0000000020000030      0x630
                 0x0000000020000030                __bss_start__ = .
                 0x0000000020000030                _sbss = .
  *(.bss_begin .bss_begin.*)
@@ -1699,47 +1743,36 @@ END GROUP
                 0x0000000020000650        0x1 ./src/core/core.o
  .bss.bffRtc    0x0000000020000651        0xb ./src/core/dbg.o
                 0x0000000020000651                bffRtc
- .bss.freg      0x000000002000065c        0x2 ./src/core/pogPWM.o
-                0x000000002000065c                freg
- .bss.ma        0x000000002000065e        0x2 ./src/core/pogPWM.o
-                0x000000002000065e                ma
- .bss.mb        0x0000000020000660        0x2 ./src/core/pogPWM.o
-                0x0000000020000660                mb
- .bss.newMa     0x0000000020000662        0x2 ./src/core/pogPWM.o
-                0x0000000020000662                newMa
- .bss.newMb     0x0000000020000664        0x2 ./src/core/pogPWM.o
-                0x0000000020000664                newMb
- .bss.pwmEnable
-                0x0000000020000666        0x1 ./src/core/pogPWM.o
-                0x0000000020000666                pwmEnable
- *fill*         0x0000000020000667        0x1 
- .bss._ZGVZ3dbgvE4time
-                0x0000000020000668        0x4 ./src/IceCube.o
- *fill*         0x000000002000066c        0x4 
- .bss._ZZ3dbgvE4time
-                0x0000000020000670        0x8 ./src/IceCube.o
+ .bss.initOK    0x000000002000065c        0x1 ./src/IceCube.o
+                0x000000002000065c                initOK
+ .bss.lineL     0x000000002000065d        0x1 ./src/IceCube.o
+                0x000000002000065d                lineL
+ .bss.lineR     0x000000002000065e        0x1 ./src/IceCube.o
+                0x000000002000065e                lineR
+ .bss.lineU     0x000000002000065f        0x1 ./src/IceCube.o
+                0x000000002000065f                lineU
  *(COMMON)
  *(.bss_end .bss_end.*)
-                0x0000000020000678                . = ALIGN (0x4)
-                0x0000000020000678                __bss_end__ = .
-                0x0000000020000678                _ebss = .
+                0x0000000020000660                . = ALIGN (0x4)
+                0x0000000020000660                __bss_end__ = .
+                0x0000000020000660                _ebss = .
 
 .noinit_CCMRAM
  *(.noinit.CCMRAM .noinit.CCMRAM.*)
 
-.noinit         0x0000000020000678        0x0
-                0x0000000020000678                _noinit = .
+.noinit         0x0000000020000660        0x0
+                0x0000000020000660                _noinit = .
  *(.noinit .noinit.*)
-                0x0000000020000678                . = ALIGN (0x4)
-                0x0000000020000678                _end_noinit = .
+                0x0000000020000660                . = ALIGN (0x4)
+                0x0000000020000660                _end_noinit = .
                 [!provide]                        PROVIDE (end, _end_noinit)
                 [!provide]                        PROVIDE (_end, _end_noinit)
                 [!provide]                        PROVIDE (__end, _end_noinit)
                 [!provide]                        PROVIDE (__end__, _end_noinit)
 
-._check_stack   0x0000000020000678      0x100
-                0x0000000020000778                . = (. + _Minimum_Stack_Size)
- *fill*         0x0000000020000678      0x100 
+._check_stack   0x0000000020000660      0x100
+                0x0000000020000760                . = (. + _Minimum_Stack_Size)
+ *fill*         0x0000000020000660      0x100 
 
 .b1text
  *(.b1text)
@@ -1812,7 +1845,6 @@ END GROUP
  .comment       0x0000000000000031       0x32 ./src/sysBase/utility_timer.o
  .comment       0x0000000000000031       0x32 ./src/core/core.o
  .comment       0x0000000000000031       0x32 ./src/core/dbg.o
- .comment       0x0000000000000031       0x32 ./src/core/pogPWM.o
  .comment       0x0000000000000031       0x32 ./src/core/protocol.o
  .comment       0x0000000000000031       0x32 ./src/IceCube.o
  .comment       0x0000000000000031       0x32 ./src/main.o
@@ -1873,19 +1905,17 @@ END GROUP
  .ARM.attributes
                 0x00000000000004c8       0x33 ./src/core/dbg.o
  .ARM.attributes
-                0x00000000000004fb       0x33 ./src/core/pogPWM.o
+                0x00000000000004fb       0x33 ./src/core/protocol.o
  .ARM.attributes
-                0x000000000000052e       0x33 ./src/core/protocol.o
+                0x000000000000052e       0x33 ./src/IceCube.o
  .ARM.attributes
-                0x0000000000000561       0x33 ./src/IceCube.o
+                0x0000000000000561       0x33 ./src/main.o
  .ARM.attributes
-                0x0000000000000594       0x33 ./src/main.o
+                0x0000000000000594       0x2d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
  .ARM.attributes
-                0x00000000000005c7       0x2d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
+                0x00000000000005c1       0x2d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
  .ARM.attributes
-                0x00000000000005f4       0x2d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
- .ARM.attributes
-                0x0000000000000621       0x2d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
+                0x00000000000005ee       0x2d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
 
 .debug
  *(.debug)
@@ -1899,7 +1929,7 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x0000000000000000      0xe38
+.debug_aranges  0x0000000000000000      0xe30
  *(.debug_aranges)
  .debug_aranges
                 0x0000000000000000       0x40 ./system/src/stm32f1-stdperiph/misc.o
@@ -1948,28 +1978,26 @@ END GROUP
  .debug_aranges
                 0x0000000000000b68       0x68 ./src/sysBase/utility_timer.o
  .debug_aranges
-                0x0000000000000bd0       0x78 ./src/core/core.o
+                0x0000000000000bd0       0x80 ./src/core/core.o
  .debug_aranges
-                0x0000000000000c48       0x40 ./src/core/dbg.o
+                0x0000000000000c50       0x40 ./src/core/dbg.o
  .debug_aranges
-                0x0000000000000c88       0x58 ./src/core/pogPWM.o
+                0x0000000000000c90       0x90 ./src/core/protocol.o
  .debug_aranges
-                0x0000000000000ce0       0x90 ./src/core/protocol.o
+                0x0000000000000d20       0x90 ./src/IceCube.o
  .debug_aranges
-                0x0000000000000d70       0x48 ./src/IceCube.o
+                0x0000000000000db0       0x20 ./src/main.o
  .debug_aranges
-                0x0000000000000db8       0x20 ./src/main.o
+                0x0000000000000dd0       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
  .debug_aranges
-                0x0000000000000dd8       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
+                0x0000000000000df0       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
  .debug_aranges
-                0x0000000000000df8       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
- .debug_aranges
-                0x0000000000000e18       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
+                0x0000000000000e10       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000    0x10d68
+.debug_info     0x0000000000000000    0x10b8f
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000      0x530 ./system/src/stm32f1-stdperiph/misc.o
  .debug_info    0x0000000000000530      0xbc7 ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
@@ -1993,18 +2021,17 @@ END GROUP
  .debug_info    0x00000000000090bf      0x996 ./src/sysBase/gpio.o
  .debug_info    0x0000000000009a55      0x1a6 ./src/sysBase/iwdg.o
  .debug_info    0x0000000000009bfb      0xdfb ./src/sysBase/usartx.o
- .debug_info    0x000000000000a9f6      0xd83 ./src/sysBase/utility_timer.o
- .debug_info    0x000000000000b779      0x737 ./src/core/core.o
- .debug_info    0x000000000000beb0     0x130d ./src/core/dbg.o
- .debug_info    0x000000000000d1bd      0x44b ./src/core/pogPWM.o
- .debug_info    0x000000000000d608     0x14b5 ./src/core/protocol.o
- .debug_info    0x000000000000eabd      0x57c ./src/IceCube.o
- .debug_info    0x000000000000f039      0x183 ./src/main.o
- .debug_info    0x000000000000f1bc      0x969 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
- .debug_info    0x000000000000fb25      0x8b1 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
- .debug_info    0x00000000000103d6      0x992 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
+ .debug_info    0x000000000000a9f6      0xdcb ./src/sysBase/utility_timer.o
+ .debug_info    0x000000000000b7c1      0x797 ./src/core/core.o
+ .debug_info    0x000000000000bf58     0x130d ./src/core/dbg.o
+ .debug_info    0x000000000000d265     0x14b5 ./src/core/protocol.o
+ .debug_info    0x000000000000e71a      0x746 ./src/IceCube.o
+ .debug_info    0x000000000000ee60      0x183 ./src/main.o
+ .debug_info    0x000000000000efe3      0x969 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
+ .debug_info    0x000000000000f94c      0x8b1 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
+ .debug_info    0x00000000000101fd      0x992 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
 
-.debug_abbrev   0x0000000000000000     0x39e4
+.debug_abbrev   0x0000000000000000     0x388c
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000      0x181 ./system/src/stm32f1-stdperiph/misc.o
  .debug_abbrev  0x0000000000000181      0x1f4 ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
@@ -2028,18 +2055,17 @@ END GROUP
  .debug_abbrev  0x000000000000202d      0x1f5 ./src/sysBase/gpio.o
  .debug_abbrev  0x0000000000002222       0xc1 ./src/sysBase/iwdg.o
  .debug_abbrev  0x00000000000022e3      0x2a5 ./src/sysBase/usartx.o
- .debug_abbrev  0x0000000000002588      0x30c ./src/sysBase/utility_timer.o
- .debug_abbrev  0x0000000000002894      0x16a ./src/core/core.o
- .debug_abbrev  0x00000000000029fe      0x348 ./src/core/dbg.o
- .debug_abbrev  0x0000000000002d46      0x1b8 ./src/core/pogPWM.o
- .debug_abbrev  0x0000000000002efe      0x37c ./src/core/protocol.o
- .debug_abbrev  0x000000000000327a      0x18c ./src/IceCube.o
- .debug_abbrev  0x0000000000003406       0xc7 ./src/main.o
- .debug_abbrev  0x00000000000034cd      0x1de /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
- .debug_abbrev  0x00000000000036ab      0x168 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
- .debug_abbrev  0x0000000000003813      0x1d1 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
+ .debug_abbrev  0x0000000000002588      0x319 ./src/sysBase/utility_timer.o
+ .debug_abbrev  0x00000000000028a1      0x16a ./src/core/core.o
+ .debug_abbrev  0x0000000000002a0b      0x348 ./src/core/dbg.o
+ .debug_abbrev  0x0000000000002d53      0x37c ./src/core/protocol.o
+ .debug_abbrev  0x00000000000030cf      0x1df ./src/IceCube.o
+ .debug_abbrev  0x00000000000032ae       0xc7 ./src/main.o
+ .debug_abbrev  0x0000000000003375      0x1de /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
+ .debug_abbrev  0x0000000000003553      0x168 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
+ .debug_abbrev  0x00000000000036bb      0x1d1 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
 
-.debug_line     0x0000000000000000     0x458a
+.debug_line     0x0000000000000000     0x4484
  *(.debug_line)
  .debug_line    0x0000000000000000      0x16d ./system/src/stm32f1-stdperiph/misc.o
  .debug_line    0x000000000000016d      0x45c ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
@@ -2063,18 +2089,17 @@ END GROUP
  .debug_line    0x0000000000002b54      0x292 ./src/sysBase/gpio.o
  .debug_line    0x0000000000002de6      0x10b ./src/sysBase/iwdg.o
  .debug_line    0x0000000000002ef1      0x2dd ./src/sysBase/usartx.o
- .debug_line    0x00000000000031ce      0x287 ./src/sysBase/utility_timer.o
- .debug_line    0x0000000000003455      0x27b ./src/core/core.o
- .debug_line    0x00000000000036d0      0x283 ./src/core/dbg.o
- .debug_line    0x0000000000003953      0x1f7 ./src/core/pogPWM.o
- .debug_line    0x0000000000003b4a      0x367 ./src/core/protocol.o
- .debug_line    0x0000000000003eb1      0x1a3 ./src/IceCube.o
- .debug_line    0x0000000000004054       0xe2 ./src/main.o
- .debug_line    0x0000000000004136      0x161 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
- .debug_line    0x0000000000004297      0x152 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
- .debug_line    0x00000000000043e9      0x1a1 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
+ .debug_line    0x00000000000031ce      0x29b ./src/sysBase/utility_timer.o
+ .debug_line    0x0000000000003469      0x284 ./src/core/core.o
+ .debug_line    0x00000000000036ed      0x283 ./src/core/dbg.o
+ .debug_line    0x0000000000003970      0x367 ./src/core/protocol.o
+ .debug_line    0x0000000000003cd7      0x277 ./src/IceCube.o
+ .debug_line    0x0000000000003f4e       0xe2 ./src/main.o
+ .debug_line    0x0000000000004030      0x161 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
+ .debug_line    0x0000000000004191      0x152 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
+ .debug_line    0x00000000000042e3      0x1a1 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
 
-.debug_frame    0x0000000000000000     0x1e30
+.debug_frame    0x0000000000000000     0x1e78
  *(.debug_frame)
  .debug_frame   0x0000000000000000       0x68 ./system/src/stm32f1-stdperiph/misc.o
  .debug_frame   0x0000000000000068      0x290 ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
@@ -2098,85 +2123,82 @@ END GROUP
  .debug_frame   0x000000000000155c       0xac ./src/sysBase/gpio.o
  .debug_frame   0x0000000000001608       0x44 ./src/sysBase/iwdg.o
  .debug_frame   0x000000000000164c      0x148 ./src/sysBase/usartx.o
- .debug_frame   0x0000000000001794       0xe4 ./src/sysBase/utility_timer.o
- .debug_frame   0x0000000000001878      0x10c ./src/core/core.o
- .debug_frame   0x0000000000001984       0xc0 ./src/core/dbg.o
- .debug_frame   0x0000000000001a44       0xb8 ./src/core/pogPWM.o
- .debug_frame   0x0000000000001afc      0x19c ./src/core/protocol.o
- .debug_frame   0x0000000000001c98       0xc8 ./src/IceCube.o
- .debug_frame   0x0000000000001d60       0x28 ./src/main.o
- .debug_frame   0x0000000000001d88       0x3c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
- .debug_frame   0x0000000000001dc4       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
- .debug_frame   0x0000000000001de4       0x4c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
+ .debug_frame   0x0000000000001794       0xf0 ./src/sysBase/utility_timer.o
+ .debug_frame   0x0000000000001884      0x11c ./src/core/core.o
+ .debug_frame   0x00000000000019a0       0xc0 ./src/core/dbg.o
+ .debug_frame   0x0000000000001a60      0x19c ./src/core/protocol.o
+ .debug_frame   0x0000000000001bfc      0x1ac ./src/IceCube.o
+ .debug_frame   0x0000000000001da8       0x28 ./src/main.o
+ .debug_frame   0x0000000000001dd0       0x3c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
+ .debug_frame   0x0000000000001e0c       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
+ .debug_frame   0x0000000000001e2c       0x4c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
 
-.debug_str      0x0000000000000000     0x43be
+.debug_str      0x0000000000000000     0x43ca
  *(.debug_str)
- .debug_str     0x0000000000000000      0x359 ./system/src/stm32f1-stdperiph/misc.o
-                                        0x3e4 (size before relaxing)
- .debug_str     0x0000000000000359      0x544 ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
-                                        0x72d (size before relaxing)
- .debug_str     0x000000000000089d      0x3cc ./system/src/stm32f1-stdperiph/stm32f10x_bkp.o
-                                        0x5e3 (size before relaxing)
- .debug_str     0x0000000000000c69      0x320 ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
-                                        0x54b (size before relaxing)
- .debug_str     0x0000000000000f89       0xcf ./system/src/stm32f1-stdperiph/stm32f10x_iwdg.o
-                                        0x277 (size before relaxing)
- .debug_str     0x0000000000001058      0x126 ./system/src/stm32f1-stdperiph/stm32f10x_pwr.o
-                                        0x354 (size before relaxing)
- .debug_str     0x000000000000117e      0x3f4 ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o
-                                        0x635 (size before relaxing)
- .debug_str     0x0000000000001572      0x187 ./system/src/stm32f1-stdperiph/stm32f10x_rtc.o
-                                        0x3bd (size before relaxing)
- .debug_str     0x00000000000016f9      0xad8 ./system/src/stm32f1-stdperiph/stm32f10x_tim.o
-                                        0xe26 (size before relaxing)
- .debug_str     0x00000000000021d1      0x3f7 ./system/src/stm32f1-stdperiph/stm32f10x_usart.o
-                                        0x6eb (size before relaxing)
- .debug_str     0x00000000000025c8      0x3ff ./system/src/newlib/_exit.o
-                                        0x5ae (size before relaxing)
- .debug_str     0x00000000000029c7      0x16d ./system/src/newlib/_startup.o
-                                        0x2e7 (size before relaxing)
- .debug_str     0x0000000000002b34       0x8a ./system/src/newlib/_syscalls.o
-                                        0x5df (size before relaxing)
- .debug_str     0x0000000000002bbe       0x5e ./system/src/cortexm/_initialize_hardware.o
-                                        0x26b (size before relaxing)
- .debug_str     0x0000000000002c1c       0x45 ./system/src/cortexm/_reset_hardware.o
-                                        0x231 (size before relaxing)
- .debug_str     0x0000000000002c61      0x11f ./system/src/cortexm/exception_handlers.o
-                                        0x6a7 (size before relaxing)
- .debug_str     0x0000000000002d80       0x67 ./system/src/cmsis/system_stm32f10x.o
-                                        0x2ef (size before relaxing)
- .debug_str     0x0000000000002de7       0x57 ./system/src/cmsis/vectors_stm32f10x.o
-                                        0x19e (size before relaxing)
- .debug_str     0x0000000000002e3e      0x18f ./src/sysBase/adc.o
-                                        0x47d (size before relaxing)
- .debug_str     0x0000000000002fcd      0x552 ./src/sysBase/gpio.o
-                                        0xa84 (size before relaxing)
- .debug_str     0x000000000000351f       0x5b ./src/sysBase/iwdg.o
-                                        0x299 (size before relaxing)
- .debug_str     0x000000000000357a      0x20f ./src/sysBase/usartx.o
-                                        0xaf8 (size before relaxing)
- .debug_str     0x0000000000003789      0x1fc ./src/sysBase/utility_timer.o
-                                        0xb03 (size before relaxing)
- .debug_str     0x0000000000003985      0x187 ./src/core/core.o
-                                        0x5c4 (size before relaxing)
- .debug_str     0x0000000000003b0c      0x204 ./src/core/dbg.o
-                                        0x94c (size before relaxing)
- .debug_str     0x0000000000003d10       0x80 ./src/core/pogPWM.o
-                                        0x488 (size before relaxing)
- .debug_str     0x0000000000003d90      0x34a ./src/core/protocol.o
-                                        0x95a (size before relaxing)
- .debug_str     0x00000000000040da       0x77 ./src/IceCube.o
-                                        0x38e (size before relaxing)
- .debug_str     0x0000000000004151       0x10 ./src/main.o
-                                        0x285 (size before relaxing)
- .debug_str     0x0000000000004161      0x178 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
+ .debug_str     0x0000000000000000      0x371 ./system/src/stm32f1-stdperiph/misc.o
+                                        0x3f5 (size before relaxing)
+ .debug_str     0x0000000000000371      0x544 ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
+                                        0x73e (size before relaxing)
+ .debug_str     0x00000000000008b5      0x3cc ./system/src/stm32f1-stdperiph/stm32f10x_bkp.o
+                                        0x5f4 (size before relaxing)
+ .debug_str     0x0000000000000c81      0x320 ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
+                                        0x55c (size before relaxing)
+ .debug_str     0x0000000000000fa1       0xcf ./system/src/stm32f1-stdperiph/stm32f10x_iwdg.o
+                                        0x288 (size before relaxing)
+ .debug_str     0x0000000000001070      0x126 ./system/src/stm32f1-stdperiph/stm32f10x_pwr.o
+                                        0x365 (size before relaxing)
+ .debug_str     0x0000000000001196      0x3f4 ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o
+                                        0x646 (size before relaxing)
+ .debug_str     0x000000000000158a      0x187 ./system/src/stm32f1-stdperiph/stm32f10x_rtc.o
+                                        0x3ce (size before relaxing)
+ .debug_str     0x0000000000001711      0xad8 ./system/src/stm32f1-stdperiph/stm32f10x_tim.o
+                                        0xe37 (size before relaxing)
+ .debug_str     0x00000000000021e9      0x3f7 ./system/src/stm32f1-stdperiph/stm32f10x_usart.o
+                                        0x6fc (size before relaxing)
+ .debug_str     0x00000000000025e0      0x3ff ./system/src/newlib/_exit.o
+                                        0x5bf (size before relaxing)
+ .debug_str     0x00000000000029df      0x16d ./system/src/newlib/_startup.o
+                                        0x2f8 (size before relaxing)
+ .debug_str     0x0000000000002b4c       0x8a ./system/src/newlib/_syscalls.o
+                                        0x5f0 (size before relaxing)
+ .debug_str     0x0000000000002bd6       0x5e ./system/src/cortexm/_initialize_hardware.o
+                                        0x27c (size before relaxing)
+ .debug_str     0x0000000000002c34       0x45 ./system/src/cortexm/_reset_hardware.o
+                                        0x242 (size before relaxing)
+ .debug_str     0x0000000000002c79      0x11f ./system/src/cortexm/exception_handlers.o
+                                        0x6b8 (size before relaxing)
+ .debug_str     0x0000000000002d98       0x67 ./system/src/cmsis/system_stm32f10x.o
+                                        0x300 (size before relaxing)
+ .debug_str     0x0000000000002dff       0x57 ./system/src/cmsis/vectors_stm32f10x.o
+                                        0x1af (size before relaxing)
+ .debug_str     0x0000000000002e56      0x18f ./src/sysBase/adc.o
+                                        0x48e (size before relaxing)
+ .debug_str     0x0000000000002fe5      0x552 ./src/sysBase/gpio.o
+                                        0xa95 (size before relaxing)
+ .debug_str     0x0000000000003537       0x5b ./src/sysBase/iwdg.o
+                                        0x2aa (size before relaxing)
+ .debug_str     0x0000000000003592      0x20f ./src/sysBase/usartx.o
+                                        0xb09 (size before relaxing)
+ .debug_str     0x00000000000037a1      0x230 ./src/sysBase/utility_timer.o
+                                        0xb4e (size before relaxing)
+ .debug_str     0x00000000000039d1      0x138 ./src/core/core.o
+                                        0x586 (size before relaxing)
+ .debug_str     0x0000000000003b09      0x204 ./src/core/dbg.o
+                                        0x95d (size before relaxing)
+ .debug_str     0x0000000000003d0d      0x34a ./src/core/protocol.o
+                                        0x96b (size before relaxing)
+ .debug_str     0x0000000000004057      0x106 ./src/IceCube.o
+                                        0x4a3 (size before relaxing)
+ .debug_str     0x000000000000415d       0x10 ./src/main.o
+                                        0x296 (size before relaxing)
+ .debug_str     0x000000000000416d      0x178 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
                                         0x5c9 (size before relaxing)
- .debug_str     0x00000000000042d9       0xa5 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
+ .debug_str     0x00000000000042e5       0xa5 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
                                         0x5bc (size before relaxing)
- .debug_str     0x000000000000437e       0x40 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
+ .debug_str     0x000000000000438a       0x40 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
                                         0x5cc (size before relaxing)
 
-.debug_loc      0x0000000000000000     0x548d
+.debug_loc      0x0000000000000000     0x53b5
  *(.debug_loc)
  .debug_loc     0x0000000000000000      0x16c ./system/src/stm32f1-stdperiph/misc.o
  .debug_loc     0x000000000000016c      0xa84 ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
@@ -2197,14 +2219,13 @@ END GROUP
  .debug_loc     0x000000000000423b       0x42 ./src/sysBase/iwdg.o
  .debug_loc     0x000000000000427d      0x2af ./src/sysBase/usartx.o
  .debug_loc     0x000000000000452c      0x118 ./src/sysBase/utility_timer.o
- .debug_loc     0x0000000000004644       0xa5 ./src/core/core.o
- .debug_loc     0x00000000000046e9      0x14a ./src/core/dbg.o
- .debug_loc     0x0000000000004833       0x72 ./src/core/pogPWM.o
- .debug_loc     0x00000000000048a5      0x80a ./src/core/protocol.o
- .debug_loc     0x00000000000050af       0x7b ./src/IceCube.o
- .debug_loc     0x000000000000512a      0x161 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
- .debug_loc     0x000000000000528b       0x21 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
- .debug_loc     0x00000000000052ac      0x1e1 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
+ .debug_loc     0x0000000000004644       0x63 ./src/core/core.o
+ .debug_loc     0x00000000000046a7      0x14a ./src/core/dbg.o
+ .debug_loc     0x00000000000047f1      0x80a ./src/core/protocol.o
+ .debug_loc     0x0000000000004ffb       0x57 ./src/IceCube.o
+ .debug_loc     0x0000000000005052      0x161 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-itoa.o)
+ .debug_loc     0x00000000000051b3       0x21 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
+ .debug_loc     0x00000000000051d4      0x1e1 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-utoa.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -2222,7 +2243,7 @@ END GROUP
  *(.debug_varnames)
 OUTPUT(IceCube.elf elf32-littlearm)
 
-.debug_ranges   0x0000000000000000      0xd88
+.debug_ranges   0x0000000000000000      0xd90
  .debug_ranges  0x0000000000000000       0x30 ./system/src/stm32f1-stdperiph/misc.o
  .debug_ranges  0x0000000000000030      0x128 ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
  .debug_ranges  0x0000000000000158       0x68 ./system/src/stm32f1-stdperiph/stm32f10x_bkp.o
@@ -2246,10 +2267,9 @@ OUTPUT(IceCube.elf elf32-littlearm)
  .debug_ranges  0x0000000000000a50       0x18 ./src/sysBase/iwdg.o
  .debug_ranges  0x0000000000000a68       0x70 ./src/sysBase/usartx.o
  .debug_ranges  0x0000000000000ad8       0x90 ./src/sysBase/utility_timer.o
- .debug_ranges  0x0000000000000b68       0x68 ./src/core/core.o
- .debug_ranges  0x0000000000000bd0       0x30 ./src/core/dbg.o
- .debug_ranges  0x0000000000000c00       0x48 ./src/core/pogPWM.o
- .debug_ranges  0x0000000000000c48       0xe8 ./src/core/protocol.o
- .debug_ranges  0x0000000000000d30       0x38 ./src/IceCube.o
- .debug_ranges  0x0000000000000d68       0x10 ./src/main.o
- .debug_ranges  0x0000000000000d78       0x10 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)
+ .debug_ranges  0x0000000000000b68       0x70 ./src/core/core.o
+ .debug_ranges  0x0000000000000bd8       0x30 ./src/core/dbg.o
+ .debug_ranges  0x0000000000000c08       0xe8 ./src/core/protocol.o
+ .debug_ranges  0x0000000000000cf0       0x80 ./src/IceCube.o
+ .debug_ranges  0x0000000000000d70       0x10 ./src/main.o
+ .debug_ranges  0x0000000000000d80       0x10 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strlen-stub.o)

@@ -18,6 +18,7 @@
 #define TIME_S_READ		500	// tempo em miles segundos
 #define R_MIN			700	//
 #define R_MID			1000	//
+#define R_MID_H			1800	//
 #define R_MAX			4095	//
 
 #define V_MAX			499	//
@@ -63,9 +64,7 @@ void setUp(void){
 	initOK = true;
 	printDbgSTR(NULL, "INIT... OK");
 
-	findR();		// primeira procura a direitra, está budado
-
-
+	findF();
 }
 
 
@@ -90,27 +89,33 @@ bool empurrar(void){
 	u16 value = sFront();
 	if(value > R_MID){
 		findF();
+		delay_ms(50);
 		return true;
+	} else{
+		travarL();
+		travarR();
+		travarB();
+		return false;
 	}
-
-	travarL();
-	travarR();
-	travarB();
-	return false;
 }
 
 /* foje da linha */
 bool foje(void){
 	if(lineL || lineR || lineU){
-		if(lineU){
+		if((sFront() <= R_MID_H) && (sLeft() <= R_MID_H) && (sRight() <= R_MID_H)){
+			if(lineU){
+				findF();
+			} else if(lineL){
+				findL();
+			} else {
+				findR();
+			}
+			delay_ms(350);
 			findF();
+
 		} else {
-			findB();
+			findF();
 		}
-
-		delay_ms(600);
-
-		findR();
 
 		lineR = false;
 		lineL = false;
